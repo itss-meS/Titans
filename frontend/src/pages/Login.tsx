@@ -49,7 +49,7 @@ export default function Login() {
 
   const handleTeacherLogin = () => {
     login('teacher', '')
-    navigate('/teacher')
+    navigate('/teacher/subject')
   }
 
   const handleStudentLogin = () => {

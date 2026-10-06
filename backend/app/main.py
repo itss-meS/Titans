@@ -1,13 +1,18 @@
 from contextlib import asynccontextmanager
+from pathlib import Path
 
+from dotenv import load_dotenv
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import func, select
 
 from app.db import Question, SessionLocal, init_db
 from app.routes import classes, practice, questions, reports, responses, students
+from app.routes import subjects
 from app.seed import seed
 from app.services.ai_client import ai_health
+
+load_dotenv(Path(__file__).resolve().parents[2] / ".env")
 
 
 @asynccontextmanager
@@ -32,6 +37,7 @@ app.add_middleware(
 app.include_router(questions.router)
 app.include_router(responses.router)
 app.include_router(students.router)
+app.include_router(subjects.router)
 app.include_router(reports.router)
 app.include_router(classes.router)
 app.include_router(practice.router)

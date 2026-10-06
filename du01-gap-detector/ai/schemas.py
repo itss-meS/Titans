@@ -1,6 +1,6 @@
 from enum import Enum
 from typing import Any, Dict, List, Optional
-from pydantic import BaseModel
+from pydantic import BaseModel, ConfigDict, Field, StrictInt, StrictStr
 
 
 class Severity(str, Enum):
@@ -91,3 +91,23 @@ class RecommendRequest(BaseModel):
 class PracticeRequest(BaseModel):
     gaps: List[GapOut]
     count: int = 5
+
+
+class GenerateQuestionsRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    subject: StrictStr = Field(min_length=1, max_length=100)
+    concept: StrictStr = Field(min_length=1, max_length=100)
+    count: StrictInt = Field(default=5, ge=1, le=10)
+    difficulty: StrictInt = Field(default=3, ge=1, le=5)
+
+
+class GeneratedQuestionOut(BaseModel):
+    id: str
+    stem: str
+    type: QType
+    options: List[str]
+    correct_answer: Any
+    topics: List[str]
+    difficulty: int
+    rubric: Dict[str, float]

@@ -1,7 +1,6 @@
-import re
 from typing import Dict, List
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
@@ -9,17 +8,15 @@ from app.auth import User, require_teacher
 from app.db import ClassRoom, Question, Student, get_db
 from app.schemas import DashboardCell, DashboardOut, DashboardStudent, TopGap
 from app.services.analysis import analyze_student
+from app.routes.subjects import DEFAULT_SUBJECT_ID, subjects_from_questions
 
 router = APIRouter(prefix="/api")
-
-
-def natural_key(value: str):
-    return [int(part) if part.isdigit() else part.lower() for part in re.split(r"(\d+)", value)]
 
 
 @router.get("/classes/{class_id}/dashboard", response_model=DashboardOut)
 def class_dashboard(
     class_id: int,
+    subject: str | None = Query(None, min_length=1),
     db: Session = Depends(get_db),
     user: User = Depends(require_teacher),
 ):
@@ -27,12 +24,13 @@ def class_dashboard(
     if classroom is None:
         raise HTTPException(status_code=404, detail="Class not found")
 
-    questions = sorted(db.scalars(select(Question)).all(), key=lambda q: natural_key(q.id))
-    concepts: List[str] = []
-    for question in questions:
-        for topic in question.topics or []:
-            if topic not in concepts:
-                concepts.append(topic)
+    available_subjects = subjects_from_questions(db)
+    selected_subject = subject or (available_subjects[0].id if available_subjects else DEFAULT_SUBJECT_ID)
+    selected = next((item for item in available_subjects if item.id == selected_subject), None)
+    if selected is None or selected.class_id != class_id:
+        raise HTTPException(status_code=404, detail="Subject not found")
+
+    concepts = list(selected.concepts)
 
     students = db.scalars(
         select(Student).where(Student.class_id == class_id).order_by(Student.id)

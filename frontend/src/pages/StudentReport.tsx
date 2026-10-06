@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import api, { errorMessage } from '../api'
+import { isStudent } from '../auth'
 import type { ReportOut } from '../types'
 import Loader from '../components/Loader'
 import ErrorBox from '../components/ErrorBox'
@@ -15,22 +16,28 @@ export default function StudentReport() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
-  const loadData = async () => {
-    if (!id) return
+  const loadData = async (signal?: AbortSignal) => {
+    if (!id) {
+      setLoading(false)
+      return
+    }
     setLoading(true)
     setError(null)
     try {
-      const res = await api.get<ReportOut>(`/students/${id}/report`)
-      setData(res.data)
+      const res = await api.get<ReportOut>(`/students/${id}/report`, { signal })
+      if (!signal?.aborted) setData(res.data)
     } catch (err) {
-      setError(errorMessage(err))
+      if (!signal?.aborted) setError(errorMessage(err))
     } finally {
-      setLoading(false)
+      if (!signal?.aborted) setLoading(false)
     }
   }
 
   useEffect(() => {
-    loadData()
+    const controller = new AbortController()
+    setData(null)
+    void loadData(controller.signal)
+    return () => controller.abort()
   }, [id])
 
   if (loading) return <Loader label="Loading report" />
@@ -39,6 +46,8 @@ export default function StudentReport() {
 
   const overallMastery = Math.round(data.overall_mastery * 100)
   const practiceCount = data.practice_set.length
+  const focusAreas = data.gaps.slice(0, 3)
+  const remainingGaps = data.gaps.slice(3)
 
   const statusBanner = (() => {
     if (data.status === 'no_data') {
@@ -89,6 +98,17 @@ export default function StudentReport() {
         {statusBanner}
       </div>
 
+      <div className="space-y-4">
+        <h2 className="text-2xl font-display text-ink">Do this next</h2>
+        <RecommendationList items={data.recommendations} />
+        {focusAreas.length > 0 && (
+          <div className="space-y-3">
+            <h3 className="text-lg font-display text-ink">Top focus areas</h3>
+            <div className="space-y-4">{focusAreas.map((gap, index) => <GapCard key={`${gap.concept}-${index}`} gap={gap} />)}</div>
+          </div>
+        )}
+      </div>
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
         <div className="space-y-6">
           <div className="space-y-4">
@@ -121,7 +141,7 @@ export default function StudentReport() {
             </div>
           ) : (
             <div className="space-y-4">
-              {data.gaps.map((gap, i) => (
+              {remainingGaps.map((gap, i) => (
                 <GapCard key={i} gap={gap} />
               ))}
             </div>
@@ -129,12 +149,7 @@ export default function StudentReport() {
         </div>
       </div>
 
-      <div className="space-y-4">
-        <h2 className="text-2xl font-display text-ink">Recommendations</h2>
-        <RecommendationList items={data.recommendations} />
-      </div>
-
-      {data.practice_set_id && (
+      {isStudent() && data.practice_set_id && (
         <div className="flex justify-center">
           <button
             onClick={() => navigate(`/practice/${data.practice_set_id}`)}
@@ -145,7 +160,7 @@ export default function StudentReport() {
         </div>
       )}
 
-      {!data.practice_set_id && (
+      {isStudent() && !data.practice_set_id && (
         <div className="flex justify-center">
           <button
             disabled

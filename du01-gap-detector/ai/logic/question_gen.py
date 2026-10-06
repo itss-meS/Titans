@@ -1,3 +1,6 @@
+from logic.llm import chat_json, is_configured
+
+
 TEMPLATES = {
     "Variables": [
         (
@@ -84,10 +87,28 @@ TEMPLATES = {
             "The same values are calculated many times without caching.",
         ),
     ],
+    "Memoization": [
+        (
+            "mcq",
+            "What is the main purpose of memoization?",
+            ["Reuse computed results", "Sort input values", "Validate syntax", "Print output"],
+            "Reuse computed results",
+            "Memoization stores results so repeated subproblems can be answered quickly.",
+        ),
+    ],
+    "Stack Frames": [
+        (
+            "mcq",
+            "What does a stack frame hold during a function call?",
+            ["Local call state", "All program files", "Only comments", "The operating system"],
+            "Local call state",
+            "A stack frame stores the local state needed for one active function call.",
+        ),
+    ],
 }
 
 
-def generate(gaps, count=5):
+def _template_generate(gaps, count=5):
     limit = max(0, min(count, 5))
     ordered = sorted(gaps, key=lambda g: g["mastery"])
     chosen = [g for g in ordered if g["concept"] in TEMPLATES][:3]
@@ -116,3 +137,144 @@ def generate(gaps, count=5):
                 }
             )
     return output
+
+
+def _llm_practice(gaps, count):
+    ordered = sorted(gaps, key=lambda g: g["mastery"])[:3]
+    concepts = [g["concept"] for g in ordered]
+    if not concepts:
+        return []
+    data = chat_json(
+        "You write practice questions for students. Return only strict JSON with a questions array. "
+        "Each item has: stem (string), type (mcq or short_answer), options (array of exactly 4 distinct strings for mcq, empty array for short_answer), "
+        "correct_answer (string, must equal one option for mcq), explanation (string), target_concept (one of the given concepts).",
+        {
+            "count": count,
+            "concepts": concepts,
+            "gaps": [
+                {
+                    "concept": g["concept"],
+                    "severity": g.get("severity"),
+                    "mastery": g.get("mastery"),
+                    "evidence": (g.get("evidence") or [])[:5],
+                }
+                for g in ordered
+            ],
+        },
+        temperature=0.4,
+    )
+    items = data.get("questions")
+    if not isinstance(items, list):
+        raise RuntimeError("AI service unavailable")
+    output = []
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        stem = item.get("stem")
+        qtype = item.get("type")
+        options = item.get("options")
+        correct = item.get("correct_answer")
+        explanation = item.get("explanation")
+        concept = item.get("target_concept")
+        if not isinstance(stem, str) or not stem.strip():
+            continue
+        if qtype not in ("mcq", "short_answer"):
+            continue
+        if concept not in concepts:
+            continue
+        if not isinstance(correct, str) or not correct.strip():
+            continue
+        if not isinstance(explanation, str) or not explanation.strip():
+            continue
+        if qtype == "mcq":
+            if not isinstance(options, list) or len(options) != 4 or len(set(options)) != 4 or correct not in options:
+                continue
+        else:
+            options = []
+        output.append(
+            {
+                "id": "gen-ai-{}".format(len(output)),
+                "stem": stem.strip(),
+                "type": qtype,
+                "options": options,
+                "correct_answer": correct,
+                "explanation": explanation.strip(),
+                "target_concept": concept,
+            }
+        )
+        if len(output) >= count:
+            break
+    return output
+
+
+def generate(gaps, count=5):
+    limit = max(0, min(count, 5))
+    if limit == 0:
+        return []
+    if is_configured():
+        try:
+            output = _llm_practice(gaps, limit)
+            if output:
+                return output
+        except RuntimeError:
+            pass
+    return _template_generate(gaps, limit)
+
+
+def generate_questions(subject, concept, count=5, difficulty=3):
+    prompt = {
+        "subject": subject,
+        "concept": concept,
+        "count": count,
+        "difficulty": difficulty,
+        "requirements": {
+            "types": ["mcq", "short_answer"],
+            "topics": [concept],
+            "rubric": {},
+            "id_prefix": "gen_",
+        },
+    }
+    raw = chat_json(
+        "Return only strict JSON with a questions array. Do not include markdown.",
+        prompt,
+    )
+    items = raw.get("questions")
+    if not isinstance(items, list):
+        raise RuntimeError("AI service unavailable")
+    valid = []
+    ids = set()
+    for item in items:
+        if not isinstance(item, dict):
+            continue
+        qid = item.get("id")
+        stem = item.get("stem")
+        qtype = item.get("type")
+        options = item.get("options")
+        correct = item.get("correct_answer")
+        if not isinstance(qid, str) or not qid.startswith("gen_") or qid in ids:
+            continue
+        if not isinstance(stem, str) or not stem.strip():
+            continue
+        if qtype not in {"mcq", "short_answer"}:
+            continue
+        if item.get("topics") != [concept] or item.get("difficulty") != difficulty or item.get("rubric") != {}:
+            continue
+        if qtype == "mcq":
+            if not isinstance(options, list) or len(options) != 4 or len(set(options)) != 4 or correct not in options:
+                continue
+        elif not isinstance(correct, str) or not correct.strip() or len(correct.strip()) > 200 or options != []:
+            continue
+        ids.add(qid)
+        valid.append(
+            {
+                "id": qid,
+                "stem": stem.strip(),
+                "type": qtype,
+                "options": options,
+                "correct_answer": correct,
+                "topics": [concept],
+                "difficulty": difficulty,
+                "rubric": {},
+            }
+        )
+    return valid[:count]

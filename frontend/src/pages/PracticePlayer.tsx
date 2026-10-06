@@ -27,6 +27,7 @@ export default function PracticePlayer() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [states, setStates] = useState<QuestionState[]>([])
   const [submitError, setSubmitError] = useState<string | null>(null)
+  const [submitting, setSubmitting] = useState(false)
   const [finished, setFinished] = useState(false)
   const [timer, setTimer] = useState(0)
   const timerRef = useRef<number | null>(null)
@@ -80,7 +81,9 @@ export default function PracticePlayer() {
     if (!setId) return
     const state = states[currentIndex]
     const question = questions[currentIndex]
+    if (submitting || state.submitted) return
     setSubmitError(null)
+    setSubmitting(true)
 
     const newStates = [...states]
     newStates[currentIndex] = { ...state, timeSpent: timer }
@@ -100,6 +103,8 @@ export default function PracticePlayer() {
       setStates(newStates)
     } catch (err) {
       setSubmitError(errorMessage(err))
+    } finally {
+      setSubmitting(false)
     }
   }
 
@@ -131,6 +136,7 @@ export default function PracticePlayer() {
     )
     setFinished(false)
     setSubmitError(null)
+    setSubmitting(false)
   }
 
   if (loading) return <Loader label="Loading practice" />
@@ -263,10 +269,10 @@ export default function PracticePlayer() {
         {!state.submitted && (
           <button
             onClick={handleSubmit}
-            disabled={!state.answer.trim()}
+            disabled={!state.answer.trim() || submitting}
             className="px-6 py-3 bg-accent text-onAccent rounded-full font-medium hover:opacity-90 transition-opacity duration-200 disabled:bg-muteSoft disabled:text-mute disabled:cursor-not-allowed"
           >
-            Submit
+            {submitting ? 'Submitting…' : 'Submit'}
           </button>
         )}
 

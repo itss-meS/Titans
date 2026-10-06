@@ -161,6 +161,95 @@ def test_recommend():
     assert recs[0]["estimated_time_min"] == 20
 
 
+def test_recommend_is_personalized_and_deterministic():
+    gaps = [
+        {
+            "concept": "Dynamic Programming",
+            "severity": "critical",
+            "confidence": 0.9,
+            "mastery": 0.2,
+            "prerequisite_gaps": ["Recursion"],
+        },
+        {
+            "concept": "Variables",
+            "severity": "medium",
+            "confidence": 0.7,
+            "mastery": 0.5,
+            "prerequisite_gaps": [],
+        },
+        {
+            "concept": "Loops",
+            "severity": "medium",
+            "confidence": 0.7,
+            "mastery": 0.5,
+            "prerequisite_gaps": [],
+        },
+        {
+            "concept": "Variables",
+            "severity": "high",
+            "confidence": 0.7,
+            "mastery": 0.5,
+            "prerequisite_gaps": [],
+        },
+    ]
+    first = recommend(gaps)
+    second = recommend(list(reversed(gaps)))
+    assert first == second
+    assert first[0]["target_concept"] == "Recursion"
+    assert len([item for item in first if item["target_concept"] == "Variables"]) == 1
+
+
+def test_recommendations_follow_each_student():
+    first = recommend(
+        [
+            {
+                "concept": "Loops",
+                "severity": "critical",
+                "mastery": 0.2,
+                "confidence": 0.9,
+                "evidence": ["q1: incorrect"],
+                "trend": "declining",
+                "prerequisite_gaps": [],
+            }
+        ]
+    )
+    second = recommend(
+        [
+            {
+                "concept": "Functions",
+                "severity": "high",
+                "mastery": 0.4,
+                "confidence": 0.8,
+                "evidence": ["q2: incorrect"],
+                "trend": "stable",
+                "prerequisite_gaps": ["Variables"],
+            }
+        ]
+    )
+    assert first != second
+    assert all(item["target_concept"] != "Functions" for item in first)
+    assert all(item["target_concept"] != "Loops" for item in second)
+
+
+def test_no_gap_recommendations_are_stretch_only():
+    recommendations = recommend(
+        [
+            {
+                "concept": "Variables",
+                "severity": "low",
+                "mastery": 0.9,
+                "confidence": 1.0,
+                "evidence": [],
+                "trend": "stable",
+                "prerequisite_gaps": [],
+            }
+        ]
+    )
+    assert recommendations
+    assert all(item["type"] == "stretch" for item in recommendations)
+    assert all("Gap" not in item["title"] for item in recommendations)
+
+
 def test_generate():
     r = detect_gaps("stu_3", STU_3, QUESTIONS)
     five = generate(r["gaps"], count=5)
@@ -188,6 +277,17 @@ def test_endpoints():
     gen = client.post("/generate-practice", json={"gaps": body["gaps"], "count": 5})
     assert gen.status_code == 200
     assert len(gen.json()) == 5
+    generated = client.post(
+        "/generate-questions",
+        json={"subject": "programming", "concept": "Variables", "count": 3, "difficulty": 2},
+    )
+    assert generated.status_code == 503
+    assert generated.json()["detail"] == "AI service unavailable"
+    invalid = client.post(
+        "/generate-questions",
+        json={"subject": "programming", "concept": "Variables", "count": 0, "difficulty": 2},
+    )
+    assert invalid.status_code == 422
 
 
 if __name__ == "__main__":

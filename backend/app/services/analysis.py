@@ -5,12 +5,25 @@ from app.db import Question, Response
 from app.services import ai_client
 
 
+def no_data_result() -> dict:
+    return {
+        "gaps": [],
+        "strengths": [],
+        "mastery_by_concept": [],
+        "overall_mastery": 0.0,
+        "status": "no_data",
+        "message": "No responses yet. Submit an assessment to see learning gaps.",
+    }
+
+
 def analyze_student(db: Session, student_id: str) -> dict:
     rows = db.scalars(
         select(Response)
         .where(Response.student_id == student_id)
         .order_by(Response.created_at, Response.id)
     ).all()
+    if not rows:
+        return no_data_result()
 
     question_ids = []
     for row in rows:

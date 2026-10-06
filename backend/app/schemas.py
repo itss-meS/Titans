@@ -1,6 +1,7 @@
 from enum import Enum
 from typing import Any, Dict, List, Optional
-from pydantic import BaseModel
+
+from pydantic import BaseModel, ConfigDict, Field, StrictInt, StrictStr, field_validator
 
 
 class Severity(str, Enum):
@@ -17,14 +18,16 @@ class QType(str, Enum):
 
 
 class QuestionIn(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
     id: Optional[str] = None
-    stem: str
+    stem: str = Field(min_length=1, max_length=4000)
     type: QType
     correct_answer: Any
-    options: List[str] = []
-    topics: List[str]
-    difficulty: int = 3
-    rubric: Dict[str, float] = {}
+    options: List[str] = Field(default_factory=list)
+    topics: List[str] = Field(min_length=1)
+    difficulty: int = Field(default=3, ge=1, le=5)
+    rubric: Dict[str, float] = Field(default_factory=dict)
 
 
 class QuestionOut(QuestionIn):
@@ -113,6 +116,43 @@ class DashboardOut(BaseModel):
     concepts: List[str]
     students: List[DashboardStudent]
     top_gaps: List[TopGap]
+
+
+class SubjectOut(BaseModel):
+    id: str
+    name: str
+    class_id: int
+    concepts: List[str]
+
+
+class StudentCreate(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    name: StrictStr = Field(min_length=2, max_length=60)
+    class_id: StrictInt = Field(ge=1)
+
+    @field_validator("name")
+    @classmethod
+    def name_must_contain_text(cls, value: str) -> str:
+        if not value.strip():
+            raise ValueError("Name must contain non-whitespace characters")
+        return value
+
+
+class GenerateQuestionsIn(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    subject: StrictStr = Field(min_length=1, max_length=100)
+    concept: StrictStr = Field(min_length=1, max_length=100)
+    count: StrictInt = Field(default=5, ge=1, le=10)
+    difficulty: StrictInt = Field(default=3, ge=1, le=3)
+
+    @field_validator("subject", "concept")
+    @classmethod
+    def value_must_contain_text(cls, value: str) -> str:
+        if not value.strip():
+            raise ValueError("Value must contain non-whitespace characters")
+        return value
 
 
 class StudentListItem(BaseModel):

@@ -29,8 +29,28 @@ def student_report(
     if gaps:
         recommendations = ai_client.recommend(gaps)
         practice = ai_client.generate_practice(gaps, 5)
-    else:
+    elif det["status"] == "no_data":
         recommendations = []
+        practice = []
+    else:
+        strongest = sorted(
+            det["mastery_by_concept"],
+            key=lambda item: (-item["mastery"], item["concept"]),
+        )[:3]
+        recommendations = ai_client.recommend(
+            [
+                {
+                    "concept": item["concept"],
+                    "severity": "low",
+                    "confidence": 1.0,
+                    "mastery": item["mastery"],
+                    "evidence": [],
+                    "trend": "stable",
+                    "prerequisite_gaps": [],
+                }
+                for item in strongest
+            ]
+        )
         practice = []
 
     practice_set_id = None

@@ -90,11 +90,16 @@ export default function HeatmapTable({ concepts, students, onSelect, filterConce
                         <div className="text-xs font-mono tracking-wider text-mute">{mastery}%</div>
                       </div>
                     </td>
-                    {student.cells.map((cell, i) => {
+                    {concepts.map((concept) => {
+                      const cell = student.cells.find((item) => item.concept === concept) || {
+                        concept,
+                        severity: 'none' as CellSeverity,
+                        mastery: null,
+                      }
                       const cellMastery = cell.mastery !== null ? Math.round(cell.mastery * 100) : null
                       const severityLabel = getSeverityLabel(cell.severity)
                       return (
-                        <td key={i} className="p-3">
+                        <td key={concept} className="p-3">
                           <div
                             className={`px-3 py-2 rounded text-center text-sm font-mono ${getCellStyle(cell.severity)}`}
                             aria-label={`${cell.concept}: ${severityLabel}, ${cellMastery !== null ? cellMastery + ' percent' : 'no data'}`}

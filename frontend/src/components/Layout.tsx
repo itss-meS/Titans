@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Menu, X, Sun, Moon } from 'lucide-react'
-import { getRole, getStudentId, logout } from '../auth'
+import { getRole, getStudentId, getSubject, logout } from '../auth'
+import type { Subject } from '../types'
 import api from '../api'
 
 interface Props {
@@ -14,6 +15,7 @@ export default function Layout({ children }: Props) {
   const studentId = getStudentId()
   const [menuOpen, setMenuOpen] = useState(false)
   const [aiHealthy, setAiHealthy] = useState<boolean | null>(null)
+  const [subjectName, setSubjectName] = useState(getSubject())
   const [theme, setTheme] = useState<string>(() => {
     return localStorage.getItem('theme') || 'light'
   })
@@ -23,6 +25,16 @@ export default function Layout({ children }: Props) {
       .then((res) => setAiHealthy(res.data.ai === true))
       .catch(() => setAiHealthy(false))
   }, [])
+
+  useEffect(() => {
+    if (role !== 'teacher') return
+    api.get<Subject[]>('/subjects')
+      .then((response) => {
+        const selected = response.data.find((subject) => subject.id === getSubject())
+        setSubjectName(selected?.name || getSubject())
+      })
+      .catch(() => setSubjectName(getSubject()))
+  }, [role])
 
   const handleLogout = () => {
     logout()
@@ -69,6 +81,13 @@ export default function Layout({ children }: Props) {
             <span className="hidden md:inline text-xs font-mono tracking-wider text-mute capitalize">
               {role}
             </span>
+
+            {role === 'teacher' && (
+              <span className="hidden md:inline-flex items-center gap-2 text-xs font-mono text-ink">
+                <span>{subjectName}</span>
+                <button onClick={() => navigate('/teacher/subject')} className="text-accent hover:underline">Change</button>
+              </span>
+            )}
 
             {role === 'student' && studentId && (
               <span className="hidden md:inline text-xs font-mono tracking-wider text-ink">

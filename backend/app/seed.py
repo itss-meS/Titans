@@ -1,4 +1,5 @@
 import json
+import sys
 from datetime import datetime
 from pathlib import Path
 
@@ -12,6 +13,7 @@ from app.db import (
     SessionLocal,
     Student,
     engine,
+    init_db,
 )
 
 DATA_DIR = Path(__file__).resolve().parents[2] / "data"
@@ -72,5 +74,34 @@ def reset_and_seed() -> None:
     print(f"Seeded {classes} class, {students} students, {questions} questions, {responses} responses")
 
 
+def seed_more_questions() -> None:
+    init_db()
+    questions = load_json("questions.json")
+    with SessionLocal() as db:
+        existing = set(db.scalars(select(Question.id)).all())
+        inserted = 0
+        for item in questions:
+            if item["id"] in existing:
+                continue
+            db.add(
+                Question(
+                    id=item["id"],
+                    stem=item["stem"],
+                    type=item["type"],
+                    correct_answer=item["correct_answer"],
+                    options=item.get("options", []),
+                    topics=item.get("topics", []),
+                    difficulty=item.get("difficulty", 3),
+                    rubric=item.get("rubric", {}),
+                )
+            )
+            inserted += 1
+        db.commit()
+    print("Added {} questions".format(inserted))
+
+
 if __name__ == "__main__":
-    reset_and_seed()
+    if len(sys.argv) > 1 and sys.argv[1] == "--more":
+        seed_more_questions()
+    else:
+        reset_and_seed()
