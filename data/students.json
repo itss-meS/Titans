@@ -1,0 +1,152 @@
+[
+  {
+    "id": "stu_1",
+    "name": "Aarav Patil",
+    "class_id": 1
+  },
+  {
+    "id": "stu_2",
+    "name": "Diya Kulkarni",
+    "class_id": 1
+  },
+  {
+    "id": "stu_3",
+    "name": "Kabir Shaikh",
+    "class_id": 1
+  },
+  {
+    "id": "stu_4",
+    "name": "Ishaan Jadhav",
+    "class_id": 1
+  },
+  {
+    "id": "stu_5",
+    "name": "Ananya Pawar",
+    "class_id": 1
+  },
+  {
+    "id": "stu_6",
+    "name": "Rohan Chavan",
+    "class_id": 1
+  },
+  {
+    "id": "stu_7",
+    "name": "Sanika More",
+    "class_id": 1
+  },
+  {
+    "id": "stu_8",
+    "name": "Vedant Kale",
+    "class_id": 1
+  },
+  {
+    "id": "stu_9",
+    "name": "Meera Joshi",
+    "class_id": 1
+  },
+  {
+    "id": "stu_10",
+    "name": "Arjun Nair",
+    "class_id": 1
+  },
+  {
+    "id": "stu_11",
+    "name": "Prisha Gupta",
+    "class_id": 1
+  },
+  {
+    "id": "stu_12",
+    "name": "Atharv Bhosale",
+    "class_id": 1
+  },
+  {
+    "id": "stu_13",
+    "name": "Tanvi Deshpande",
+    "class_id": 1
+  },
+  {
+    "id": "stu_14",
+    "name": "Yash Sawant",
+    "class_id": 1
+  },
+  {
+    "id": "stu_15",
+    "name": "Riya Mehta",
+    "class_id": 1
+  },
+  {
+    "id": "stu_16",
+    "name": "Omkar Salunkhe",
+    "class_id": 1
+  },
+  {
+    "id": "stu_17",
+    "name": "Kavya Iyer",
+    "class_id": 1
+  },
+  {
+    "id": "stu_18",
+    "name": "Harsh Agarwal",
+    "class_id": 1
+  },
+  {
+    "id": "stu_19",
+    "name": "Neha Kamble",
+    "class_id": 1
+  },
+  {
+    "id": "stu_20",
+    "name": "Siddharth Rao",
+    "class_id": 1
+  },
+  {
+    "id": "stu_21",
+    "name": "Aditi Shinde",
+    "class_id": 1
+  },
+  {
+    "id": "stu_22",
+    "name": "Pranav Lokhande",
+    "class_id": 1
+  },
+  {
+    "id": "stu_23",
+    "name": "Shruti Gaikwad",
+    "class_id": 1
+  },
+  {
+    "id": "stu_24",
+    "name": "Rahul Yadav",
+    "class_id": 1
+  },
+  {
+    "id": "stu_25",
+    "name": "Ishita Verma",
+    "class_id": 1
+  },
+  {
+    "id": "stu_26",
+    "name": "Mihir Patel",
+    "class_id": 1
+  },
+  {
+    "id": "stu_27",
+    "name": "Pooja Waghmare",
+    "class_id": 1
+  },
+  {
+    "id": "stu_28",
+    "name": "Aryan Singh",
+    "class_id": 1
+  },
+  {
+    "id": "stu_29",
+    "name": "Trisha Dey",
+    "class_id": 1
+  },
+  {
+    "id": "stu_30",
+    "name": "Soham Thorat",
+    "class_id": 1
+  }
+]

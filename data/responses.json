@@ -1,0 +1,6282 @@
+[
+  {
+    "student_id": "stu_10",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 37,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:00:50"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 47,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:00:57"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 20,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:01:16"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 30,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:01:29"
+  },
+  {
+    "student_id": "stu_17",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 35,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:01:31"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q1",
+    "answer": "int",
+    "time_spent": 24,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:01:41"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 42,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:01:47"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 28,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:01:47"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 23,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:01:48"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 36,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:01:59"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 29,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:02:04"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 34,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:02:06"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 31,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:02:14"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 15,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:02:15"
+  },
+  {
+    "student_id": "stu_17",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 37,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:02:15"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q2",
+    "answer": "10",
+    "time_spent": 21,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:02:16"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 31,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:02:24"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 13,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:02:25"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 47,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:02:27"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 29,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:02:33"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 58,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:02:35"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 16,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:02:35"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 24,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:02:45"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 24,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:02:51"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 20,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:02:51"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 39,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:02:51"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 24,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:02:57"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 33,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:03:01"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 30,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:03:04"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 29,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:03:06"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 26,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:03:06"
+  },
+  {
+    "student_id": "stu_17",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 48,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:03:08"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 58,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:03:15"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 27,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:03:20"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 41,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:03:23"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 57,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:03:24"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 35,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:03:24"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 17,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:03:24"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 29,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:03:28"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 53,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:03:31"
+  },
+  {
+    "student_id": "stu_17",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 22,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:03:33"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 42,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:03:43"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 47,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:03:47"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 42,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:03:51"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 35,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:03:56"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q4",
+    "answer": "_count",
+    "time_spent": 46,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:03:57"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q6",
+    "answer": "10",
+    "time_spent": 35,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:02"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 40,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:09"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 137,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:10"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q4",
+    "answer": "total_marks",
+    "time_spent": 37,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:10"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 40,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:12"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 44,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:13"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 28,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:18"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 44,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:19"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 32,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:29"
+  },
+  {
+    "student_id": "stu_17",
+    "question_id": "q6",
+    "answer": "10",
+    "time_spent": 52,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:30"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 31,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:30"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 98,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:32"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 62,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:32"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q6",
+    "answer": "6",
+    "time_spent": 81,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:35"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 16,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:36"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q7",
+    "answer": "break",
+    "time_spent": 29,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:36"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q2",
+    "answer": "10",
+    "time_spent": 63,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:36"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 97,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:43"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 30,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:44"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 49,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:45"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 77,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:47"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 66,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:04:51"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q5",
+    "answer": "8",
+    "time_spent": 49,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:53"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 33,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:54"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 35,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:04:55"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q4",
+    "answer": "_count",
+    "time_spent": 49,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:02"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 36,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:04"
+  },
+  {
+    "student_id": "stu_17",
+    "question_id": "q7",
+    "answer": "break",
+    "time_spent": 33,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:06"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 27,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:08"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 33,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:10"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 45,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:20"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 62,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:21"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q9",
+    "answer": "10",
+    "time_spent": 45,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:23"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 31,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:24"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 28,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:25"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 14,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:27"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 94,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:28"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 34,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:30"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q2",
+    "answer": "10",
+    "time_spent": 50,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:30"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q3",
+    "answer": " 7 ",
+    "time_spent": 43,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:32"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 29,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:05:33"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 44,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:36"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q6",
+    "answer": "10",
+    "time_spent": 86,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:44"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 51,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:45"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q6",
+    "answer": "10",
+    "time_spent": 68,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:47"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 49,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:51"
+  },
+  {
+    "student_id": "stu_17",
+    "question_id": "q9",
+    "answer": "10",
+    "time_spent": 42,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:52"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q6",
+    "answer": " 10 ",
+    "time_spent": 47,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:54"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 31,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:05:55"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q7",
+    "answer": "skip",
+    "time_spent": 80,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:05:59"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 31,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:00"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q6",
+    "answer": "10",
+    "time_spent": 31,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:00"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 27,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:00"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 33,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:03"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 47,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:05"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 38,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:06:12"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q7",
+    "answer": "break",
+    "time_spent": 28,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:16"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q7",
+    "answer": "break",
+    "time_spent": 26,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:16"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 95,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:06:18"
+  },
+  {
+    "student_id": "stu_5",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 42,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:22"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 45,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:22"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q6",
+    "answer": "1234",
+    "time_spent": 85,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:25"
+  },
+  {
+    "student_id": "stu_17",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 31,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:25"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 36,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:25"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q7",
+    "answer": "break",
+    "time_spent": 28,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:26"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 26,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:26"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 68,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:31"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q6",
+    "answer": "10",
+    "time_spent": 68,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:34"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 58,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:35"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q6",
+    "answer": "10",
+    "time_spent": 57,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:35"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q7",
+    "answer": "break",
+    "time_spent": 31,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:35"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q11",
+    "answer": "4",
+    "time_spent": 31,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:36"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q7",
+    "answer": "break",
+    "time_spent": 32,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:36"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 31,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:38"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q4",
+    "answer": "_count",
+    "time_spent": 43,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:38"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q6",
+    "answer": "10",
+    "time_spent": 63,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:42"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 32,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:06:47"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 40,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:48"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 50,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:06:49"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 56,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:50"
+  },
+  {
+    "student_id": "stu_5",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 24,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:52"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q9",
+    "answer": "7",
+    "time_spent": 31,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:52"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q6",
+    "answer": "1234",
+    "time_spent": 118,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:06:56"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 30,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:00"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q6",
+    "answer": "10",
+    "time_spent": 41,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:08"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q7",
+    "answer": "break",
+    "time_spent": 27,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:09"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 23,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:15"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 31,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:15"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q7",
+    "answer": "continue",
+    "time_spent": 31,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:16"
+  },
+  {
+    "student_id": "stu_17",
+    "question_id": "q11",
+    "answer": "4",
+    "time_spent": 47,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:17"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 50,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:17"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 45,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:20"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q1",
+    "answer": "float",
+    "time_spent": 59,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:22"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q7",
+    "answer": "break",
+    "time_spent": 48,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:31"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 41,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:34"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 70,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:37"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q6",
+    "answer": " 10 ",
+    "time_spent": 51,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:38"
+  },
+  {
+    "student_id": "stu_5",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 41,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:39"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q7",
+    "answer": "skip",
+    "time_spent": 70,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:39"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 58,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:40"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q7",
+    "answer": "break",
+    "time_spent": 41,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:46"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q2",
+    "answer": "7",
+    "time_spent": 20,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:49"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q7",
+    "answer": "break",
+    "time_spent": 35,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:52"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 137,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:54"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 59,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:57"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q6",
+    "answer": "10",
+    "time_spent": 33,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:07:59"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q3",
+    "answer": "7",
+    "time_spent": 52,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:08:00"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q6",
+    "answer": "10",
+    "time_spent": 38,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:08:00"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 17,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:08:03"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q9",
+    "answer": "7",
+    "time_spent": 52,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:08:03"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 65,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:08:05"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 43,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:08:12"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q7",
+    "answer": "break",
+    "time_spent": 34,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:08:19"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 34,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:08:20"
+  },
+  {
+    "student_id": "stu_5",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 42,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:08:30"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q6",
+    "answer": "10",
+    "time_spent": 71,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:08:30"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 27,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:08:32"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 36,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:08:36"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q7",
+    "answer": "break",
+    "time_spent": 31,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:08:38"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q7",
+    "answer": "break",
+    "time_spent": 36,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:08:41"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q4",
+    "answer": "userName",
+    "time_spent": 34,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:08:43"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q8",
+    "answer": "for i in range(2, 11, 2):\n    print(i)",
+    "time_spent": 143,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:08:44"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q6",
+    "answer": "10",
+    "time_spent": 111,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:08:45"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 43,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:08:46"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q3",
+    "answer": " 7 ",
+    "time_spent": 72,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:08:52"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q7",
+    "answer": "break",
+    "time_spent": 13,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:08:52"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q8",
+    "answer": "for i in range(2, 11, 2):\n    print(i)",
+    "time_spent": 80,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:08:55"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q11",
+    "answer": "4",
+    "time_spent": 49,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:08:57"
+  },
+  {
+    "student_id": "stu_5",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 27,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:09:02"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 20,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:09:08"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q6",
+    "answer": "10",
+    "time_spent": 64,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:09:10"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q9",
+    "answer": "10",
+    "time_spent": 23,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:09:11"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q11",
+    "answer": "4",
+    "time_spent": 39,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:09:13"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 29,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:09:26"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q7",
+    "answer": "break",
+    "time_spent": 37,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:09:28"
+  },
+  {
+    "student_id": "stu_5",
+    "question_id": "q7",
+    "answer": "break",
+    "time_spent": 22,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:09:32"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q8",
+    "answer": "while i < 10:\n    print(i)",
+    "time_spent": 215,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:09:39"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 27,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:09:40"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q9",
+    "answer": "10",
+    "time_spent": 40,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:09:41"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q6",
+    "answer": "6",
+    "time_spent": 39,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:09:54"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q6",
+    "answer": "1234",
+    "time_spent": 89,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:09:56"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q7",
+    "answer": "break",
+    "time_spent": 46,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:10:02"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q6",
+    "answer": "10",
+    "time_spent": 80,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:10:02"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q5",
+    "answer": "7",
+    "time_spent": 67,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:10:02"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q6",
+    "answer": " 10 ",
+    "time_spent": 111,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:10:10"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 47,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:10:15"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q7",
+    "answer": "break",
+    "time_spent": 16,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:10:19"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q3",
+    "answer": "34",
+    "time_spent": 143,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:10:21"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q8",
+    "answer": "for i in range(2, 11, 2):\n    print(i)",
+    "time_spent": 220,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:10:22"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 40,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:10:23"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q7",
+    "answer": "break",
+    "time_spent": 38,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:10:37"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q11",
+    "answer": "4",
+    "time_spent": 50,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:10:39"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q7",
+    "answer": "break",
+    "time_spent": 34,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:10:46"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q9",
+    "answer": "10",
+    "time_spent": 26,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:10:54"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 31,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:11:00"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q8",
+    "answer": "for i in range(2, 10, 2):\n    print(i)",
+    "time_spent": 157,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:11:01"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q8",
+    "answer": "for i in range(2, 11, 2):\n    print(i)",
+    "time_spent": 267,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:11:01"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q6",
+    "answer": "10",
+    "time_spent": 48,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:11:05"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q9",
+    "answer": "5",
+    "time_spent": 87,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:11:11"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 270,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:11:13"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q7",
+    "answer": "pass",
+    "time_spent": 67,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:11:15"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q6",
+    "answer": "10",
+    "time_spent": 72,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:11:23"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 29,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:11:27"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q8",
+    "answer": "for i in range(2, 11, 2):\n    print(i)",
+    "time_spent": 287,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:11:27"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q9",
+    "answer": "10",
+    "time_spent": 25,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:11:29"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q9",
+    "answer": "10",
+    "time_spent": 24,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:11:34"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q8",
+    "answer": "for i in range(2, 11, 2):\n    print(i)",
+    "time_spent": 161,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:11:38"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q8",
+    "answer": "for i in range(2, 11, 2):\n    print(i)",
+    "time_spent": 232,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:11:46"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q10",
+    "answer": "False",
+    "time_spent": 36,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:11:56"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q7",
+    "answer": "skip",
+    "time_spent": 47,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:11:57"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q5",
+    "answer": "6",
+    "time_spent": 52,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:11:58"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q9",
+    "answer": "10",
+    "time_spent": 26,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:12:02"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q11",
+    "answer": "4",
+    "time_spent": 100,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:12:10"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q9",
+    "answer": "10",
+    "time_spent": 31,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:12:12"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q10",
+    "answer": "0",
+    "time_spent": 35,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:12:16"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q8",
+    "answer": "for i in range(2, 11, 2):\n    print(i)",
+    "time_spent": 160,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:12:17"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q10",
+    "answer": "False",
+    "time_spent": 46,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:12:18"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q11",
+    "answer": "4",
+    "time_spent": 54,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:12:29"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 25,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:12:29"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q9",
+    "answer": "10",
+    "time_spent": 43,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:12:34"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q7",
+    "answer": "skip",
+    "time_spent": 66,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:12:36"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 212,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:12:51"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 39,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:12:56"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q11",
+    "answer": "None",
+    "time_spent": 34,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:12:57"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q8",
+    "answer": "",
+    "time_spent": 251,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:12:58"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 22,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:13:00"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q8",
+    "answer": "for i in range(2, 11, 2):\n    print(i)",
+    "time_spent": 308,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:13:03"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q11",
+    "answer": "4",
+    "time_spent": 46,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:13:08"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q9",
+    "answer": "10",
+    "time_spent": 56,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:13:15"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q6",
+    "answer": "10",
+    "time_spent": 71,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:13:18"
+  },
+  {
+    "student_id": "stu_5",
+    "question_id": "q8",
+    "answer": "for i in range(2, 11, 2):\n    print(i)",
+    "time_spent": 220,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:13:20"
+  },
+  {
+    "student_id": "stu_17",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 359,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:13:25"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q9",
+    "answer": "10",
+    "time_spent": 19,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:13:27"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q11",
+    "answer": "4",
+    "time_spent": 57,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:13:32"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q8",
+    "answer": "for i in range(2, 11, 2):\n    print(i)",
+    "time_spent": 175,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:13:34"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q8",
+    "answer": "for i in range(2, 11, 2):\n    print(i)",
+    "time_spent": 349,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:13:35"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q7",
+    "answer": "break",
+    "time_spent": 17,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:13:41"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q9",
+    "answer": "5",
+    "time_spent": 54,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:13:54"
+  },
+  {
+    "student_id": "stu_5",
+    "question_id": "q9",
+    "answer": "10",
+    "time_spent": 28,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:13:57"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q11",
+    "answer": "4",
+    "time_spent": 59,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:13:58"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 37,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:13:59"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q11",
+    "answer": "None",
+    "time_spent": 117,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:14:01"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 27,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:14:02"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q8",
+    "answer": "for i in range(2, 11, 2):\n    print(i)",
+    "time_spent": 239,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:14:06"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q8",
+    "answer": "for i in range(2, 11, 2):\n    print(i)",
+    "time_spent": 404,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:14:06"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q9",
+    "answer": "5",
+    "time_spent": 25,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:14:06"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q8",
+    "answer": "for i in range(2, 11, 2):\n    print(i)",
+    "time_spent": 325,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:14:06"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q9",
+    "answer": "10",
+    "time_spent": 31,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:14:14"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q11",
+    "answer": "4",
+    "time_spent": 75,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:14:17"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q9",
+    "answer": "5",
+    "time_spent": 7,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:14:18"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 21,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:14:39"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 44,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:14:42"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q11",
+    "answer": "4",
+    "time_spent": 33,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:14:43"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q9",
+    "answer": "10",
+    "time_spent": 32,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:14:46"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q11",
+    "answer": "4",
+    "time_spent": 45,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:14:48"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 348,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:14:50"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 42,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:14:52"
+  },
+  {
+    "student_id": "stu_5",
+    "question_id": "q11",
+    "answer": "4",
+    "time_spent": 61,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:15:00"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q9",
+    "answer": "7",
+    "time_spent": 55,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:15:06"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 122,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:15:07"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q8",
+    "answer": "for i in range(10):\n    if i % 2 == 0:\n        print(i)",
+    "time_spent": 230,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:15:09"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 24,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:15:14"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q9",
+    "answer": "Error",
+    "time_spent": 7,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:15:24"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q11",
+    "answer": "4",
+    "time_spent": 36,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:15:33"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 76,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:15:41"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q8",
+    "answer": "for i in range(2, 11, 2):\n    print(i)",
+    "time_spent": 318,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:15:45"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q11",
+    "answer": "4",
+    "time_spent": 59,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:15:47"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 34,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:15:49"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 193,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:15:50"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 160,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:15:57"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 235,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:16:12"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q9",
+    "answer": "7",
+    "time_spent": 25,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:16:14"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q11",
+    "answer": "5",
+    "time_spent": 64,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:16:23"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q11",
+    "answer": "4",
+    "time_spent": 44,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:16:29"
+  },
+  {
+    "student_id": "stu_5",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 94,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:16:40"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q11",
+    "answer": "Error",
+    "time_spent": 112,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:16:43"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q10",
+    "answer": "0",
+    "time_spent": 73,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:16:44"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q11",
+    "answer": "4",
+    "time_spent": 52,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:16:50"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 33,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:16:50"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 165,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:16:51"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 387,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:17:10"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q8",
+    "answer": "pass",
+    "time_spent": 242,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:17:49"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q11",
+    "answer": "5",
+    "time_spent": 66,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:17:54"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 205,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:18:11"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q9",
+    "answer": "10",
+    "time_spent": 20,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:18:12"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q8",
+    "answer": "for i in range(2, 11, 2):\n    print(i)",
+    "time_spent": 441,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:18:14"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 130,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:18:42"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q11",
+    "answer": "5",
+    "time_spent": 111,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:18:44"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 28,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:18:45"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q9",
+    "answer": "10",
+    "time_spent": 32,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:18:51"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 196,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:18:53"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 325,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:19:05"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 256,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:19:09"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 211,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:19:22"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 24,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:19:22"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q8",
+    "answer": "for i in range(10):\n    if i % 2 == 0:\n        print(i)",
+    "time_spent": 449,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:19:28"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q11",
+    "answer": " 4 ",
+    "time_spent": 56,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:19:48"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q11",
+    "answer": "4",
+    "time_spent": 50,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:20:20"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q9",
+    "answer": "5",
+    "time_spent": 49,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:20:23"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 379,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:20:41"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 32,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:21:03"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    if n / 2 == 0:\n        return True",
+    "time_spent": 224,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:21:47"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q11",
+    "answer": "4",
+    "time_spent": 48,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:21:53"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q8",
+    "answer": "",
+    "time_spent": 567,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:22:10"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 333,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:22:25"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q9",
+    "answer": "10",
+    "time_spent": 31,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:22:43"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2",
+    "time_spent": 524,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:22:48"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 376,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:22:49"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 205,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:23:15"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q10",
+    "answer": "None",
+    "time_spent": 34,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:23:20"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n == 2",
+    "time_spent": 398,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:23:32"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 230,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:24:19"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 200,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:25:16"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q11",
+    "answer": "Error",
+    "time_spent": 120,
+    "hints_used": 1,
+    "submitted_at": "2026-08-18T10:25:23"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n == 2",
+    "time_spent": 515,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:27:28"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n % 2 == 0",
+    "time_spent": 169,
+    "hints_used": 0,
+    "submitted_at": "2026-08-18T10:28:15"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q4",
+    "answer": "2nd_place",
+    "time_spent": 35,
+    "hints_used": 0,
+    "submitted_at": "2026-08-22T15:49:38"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q1",
+    "answer": "int",
+    "time_spent": 41,
+    "hints_used": 0,
+    "submitted_at": "2026-08-22T19:42:41"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q7",
+    "answer": "continue",
+    "time_spent": 24,
+    "hints_used": 0,
+    "submitted_at": "2026-08-24T17:44:59"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q6",
+    "answer": "10",
+    "time_spent": 96,
+    "hints_used": 0,
+    "submitted_at": "2026-08-24T17:59:54"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q12",
+    "answer": "def is_even(n):\n    return n == 2",
+    "time_spent": 240,
+    "hints_used": 0,
+    "submitted_at": "2026-08-24T18:29:28"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q6",
+    "answer": "10",
+    "time_spent": 73,
+    "hints_used": 0,
+    "submitted_at": "2026-08-27T14:35:56"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q9",
+    "answer": "5",
+    "time_spent": 43,
+    "hints_used": 0,
+    "submitted_at": "2026-08-27T15:01:11"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q13",
+    "answer": "In the call stack frame",
+    "time_spent": 20,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:00:56"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q13",
+    "answer": "In the call stack frame",
+    "time_spent": 65,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:01:09"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q14",
+    "answer": "It is copied to the heap",
+    "time_spent": 10,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:01:15"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q14",
+    "answer": "It is popped from the call stack",
+    "time_spent": 30,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:01:43"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q13",
+    "answer": "In the call stack frame",
+    "time_spent": 19,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:01:53"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q14",
+    "answer": "It is copied to the heap",
+    "time_spent": 5,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:02:03"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q13",
+    "answer": "In the call stack frame",
+    "time_spent": 19,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:02:12"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q14",
+    "answer": "It is popped from the call stack",
+    "time_spent": 37,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:02:19"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q13",
+    "answer": "In the source file",
+    "time_spent": 35,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:02:23"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q15",
+    "answer": "b",
+    "time_spent": 37,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:02:25"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q14",
+    "answer": "It is popped from the call stack",
+    "time_spent": 18,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:02:39"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q16",
+    "answer": "KeyError",
+    "time_spent": 8,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:02:41"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q13",
+    "answer": "In the call stack frame",
+    "time_spent": 54,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:03:03"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q15",
+    "answer": "main",
+    "time_spent": 102,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:03:05"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q13",
+    "answer": "In the call stack frame",
+    "time_spent": 24,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:03:06"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q17",
+    "answer": "A base case",
+    "time_spent": 24,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:03:11"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q15",
+    "answer": "b",
+    "time_spent": 44,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:03:12"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q13",
+    "answer": "In the global namespace",
+    "time_spent": 7,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:03:14"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q14",
+    "answer": "It is popped from the call stack",
+    "time_spent": 49,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:03:14"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q13",
+    "answer": "In the call stack frame",
+    "time_spent": 20,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:03:14"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q13",
+    "answer": "In the call stack frame",
+    "time_spent": 19,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:03:18"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q15",
+    "answer": "b",
+    "time_spent": 76,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:03:27"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q13",
+    "answer": "In CPU registers only",
+    "time_spent": 57,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:03:28"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q14",
+    "answer": "It stays until the program ends",
+    "time_spent": 31,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:03:40"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q13",
+    "answer": "In the global namespace",
+    "time_spent": 6,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:03:42"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q13",
+    "answer": "In the global namespace",
+    "time_spent": 8,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:03:51"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q16",
+    "answer": "KeyError",
+    "time_spent": 42,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:03:51"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q14",
+    "answer": "It is copied to the heap",
+    "time_spent": 45,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:03:53"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q14",
+    "answer": "It is popped from the call stack",
+    "time_spent": 33,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:03:54"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q14",
+    "answer": "It is popped from the call stack",
+    "time_spent": 36,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:03:57"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q14",
+    "answer": "It is popped from the call stack",
+    "time_spent": 40,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:04:02"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q13",
+    "answer": "In the call stack frame",
+    "time_spent": 24,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:04:03"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q17",
+    "answer": "A global variable",
+    "time_spent": 38,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:04:09"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q16",
+    "answer": "RecursionError",
+    "time_spent": 52,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:04:11"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q18",
+    "answer": "10",
+    "time_spent": 53,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:04:11"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q14",
+    "answer": "It is merged into the caller's frame",
+    "time_spent": 38,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:04:11"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q13",
+    "answer": "In the call stack frame",
+    "time_spent": 24,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:04:16"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q17",
+    "answer": "A global variable",
+    "time_spent": 23,
+    "hints_used": 1,
+    "submitted_at": "2026-09-08T10:04:21"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q14",
+    "answer": "It stays until the program ends",
+    "time_spent": 7,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:04:29"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q15",
+    "answer": "b",
+    "time_spent": 43,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:04:30"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q15",
+    "answer": "b",
+    "time_spent": 105,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:04:30"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q15",
+    "answer": "main",
+    "time_spent": 24,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:04:33"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q18",
+    "answer": "24",
+    "time_spent": 18,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:04:33"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q14",
+    "answer": "It is popped from the call stack",
+    "time_spent": 43,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:04:37"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q18",
+    "answer": "120",
+    "time_spent": 32,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:04:46"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q18",
+    "answer": "16",
+    "time_spent": 23,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:04:46"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q15",
+    "answer": "b",
+    "time_spent": 45,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:04:48"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q13",
+    "answer": "In the source file",
+    "time_spent": 76,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:04:49"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q15",
+    "answer": "b",
+    "time_spent": 52,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:04:50"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q13",
+    "answer": "In the global namespace",
+    "time_spent": 47,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:04:52"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q13",
+    "answer": "In the global namespace",
+    "time_spent": 36,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:04:56"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q15",
+    "answer": "b",
+    "time_spent": 94,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:04:57"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q15",
+    "answer": "b",
+    "time_spent": 55,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:11"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q14",
+    "answer": "It stays until the program ends",
+    "time_spent": 93,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:17"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q15",
+    "answer": "main",
+    "time_spent": 73,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:18"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q19",
+    "answer": "4",
+    "time_spent": 43,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:20"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q16",
+    "answer": "RecursionError",
+    "time_spent": 47,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:21"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q17",
+    "answer": "A base case",
+    "time_spent": 30,
+    "hints_used": 1,
+    "submitted_at": "2026-09-08T10:05:22"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q14",
+    "answer": "It is popped from the call stack",
+    "time_spent": 27,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:22"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q16",
+    "answer": "KeyError",
+    "time_spent": 47,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:27"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q14",
+    "answer": "It is popped from the call stack",
+    "time_spent": 25,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:29"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q16",
+    "answer": "KeyError",
+    "time_spent": 33,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:32"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q16",
+    "answer": "KeyError",
+    "time_spent": 58,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:33"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q19",
+    "answer": "4",
+    "time_spent": 77,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:35"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q16",
+    "answer": "RecursionError",
+    "time_spent": 37,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:35"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q15",
+    "answer": "b",
+    "time_spent": 98,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:36"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q19",
+    "answer": "4",
+    "time_spent": 54,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:47"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q13",
+    "answer": "In CPU registers only",
+    "time_spent": 30,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:47"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q16",
+    "answer": "SyntaxError",
+    "time_spent": 21,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:48"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q17",
+    "answer": "A base case",
+    "time_spent": 19,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:48"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q15",
+    "answer": "a()",
+    "time_spent": 76,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:52"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q13",
+    "answer": "In the call stack frame",
+    "time_spent": 27,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:55"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q18",
+    "answer": "24",
+    "time_spent": 29,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:57"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q15",
+    "answer": "b",
+    "time_spent": 74,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:59"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q19",
+    "answer": "2",
+    "time_spent": 66,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:59"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q17",
+    "answer": "A return type",
+    "time_spent": 32,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:59"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q14",
+    "answer": "It is popped from the call stack",
+    "time_spent": 64,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:05:59"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q17",
+    "answer": "A for loop",
+    "time_spent": 23,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:06:01"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q17",
+    "answer": "A base case",
+    "time_spent": 32,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:06:11"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q17",
+    "answer": "A base case",
+    "time_spent": 37,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:06:12"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q16",
+    "answer": "RecursionError",
+    "time_spent": 38,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:06:20"
+  },
+  {
+    "student_id": "stu_20",
+    "question_id": "q13",
+    "answer": "In the call stack frame",
+    "time_spent": 37,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:06:20"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q18",
+    "answer": "24",
+    "time_spent": 30,
+    "hints_used": 1,
+    "submitted_at": "2026-09-08T10:06:26"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q13",
+    "answer": "In the call stack frame",
+    "time_spent": 28,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:06:26"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q18",
+    "answer": "10",
+    "time_spent": 10,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:06:28"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q16",
+    "answer": "KeyError",
+    "time_spent": 23,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:06:29"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q15",
+    "answer": "a()",
+    "time_spent": 53,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:06:29"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q13",
+    "answer": "In the global namespace",
+    "time_spent": 52,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:06:32"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q15",
+    "answer": "b",
+    "time_spent": 68,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:06:32"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q14",
+    "answer": "It is popped from the call stack",
+    "time_spent": 33,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:06:36"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q18",
+    "answer": "24",
+    "time_spent": 34,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:06:37"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q17",
+    "answer": "A base case",
+    "time_spent": 50,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:06:42"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q16",
+    "answer": "SyntaxError",
+    "time_spent": 82,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:06:42"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q14",
+    "answer": "It is popped from the call stack",
+    "time_spent": 55,
+    "hints_used": 1,
+    "submitted_at": "2026-09-08T10:06:49"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q17",
+    "answer": "A base case",
+    "time_spent": 26,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:06:50"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q18",
+    "answer": "24",
+    "time_spent": 32,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:06:50"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q16",
+    "answer": "RecursionError",
+    "time_spent": 51,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:06:50"
+  },
+  {
+    "student_id": "stu_20",
+    "question_id": "q14",
+    "answer": "It is popped from the call stack",
+    "time_spent": 32,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:06:57"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q16",
+    "answer": "SyntaxError",
+    "time_spent": 98,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:06:59"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q14",
+    "answer": "It is popped from the call stack",
+    "time_spent": 23,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:01"
+  },
+  {
+    "student_id": "stu_9",
+    "question_id": "q13",
+    "answer": "In the global namespace",
+    "time_spent": 38,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:03"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q13",
+    "answer": "In the global namespace",
+    "time_spent": 61,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:06"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q16",
+    "answer": "RecursionError",
+    "time_spent": 30,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:07"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q14",
+    "answer": "It stays until the program ends",
+    "time_spent": 23,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:10"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q19",
+    "answer": "4",
+    "time_spent": 65,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:10"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q18",
+    "answer": "24",
+    "time_spent": 67,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:11"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q14",
+    "answer": "It is copied to the heap",
+    "time_spent": 40,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:11"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q15",
+    "answer": "b",
+    "time_spent": 65,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:11"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q17",
+    "answer": "A base case",
+    "time_spent": 29,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:14"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q18",
+    "answer": "24",
+    "time_spent": 21,
+    "hints_used": 1,
+    "submitted_at": "2026-09-08T10:07:18"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q18",
+    "answer": "24",
+    "time_spent": 30,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:20"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q16",
+    "answer": "SyntaxError",
+    "time_spent": 40,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:20"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q13",
+    "answer": "In CPU registers only",
+    "time_spent": 68,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:22"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q17",
+    "answer": "A base case",
+    "time_spent": 22,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:23"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q16",
+    "answer": "KeyError",
+    "time_spent": 8,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:26"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q17",
+    "answer": "A for loop",
+    "time_spent": 56,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:33"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q18",
+    "answer": "16",
+    "time_spent": 12,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:33"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q19",
+    "answer": "4",
+    "time_spent": 58,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:34"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q17",
+    "answer": "A for loop",
+    "time_spent": 41,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:35"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q20",
+    "answer": "pass",
+    "time_spent": 135,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:39"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q15",
+    "answer": "a()",
+    "time_spent": 47,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:40"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q15",
+    "answer": "b",
+    "time_spent": 59,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:41"
+  },
+  {
+    "student_id": "stu_20",
+    "question_id": "q15",
+    "answer": "a",
+    "time_spent": 46,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:50"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q19",
+    "answer": "4",
+    "time_spent": 74,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:54"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q14",
+    "answer": "It is copied to the heap",
+    "time_spent": 28,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:56"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q15",
+    "answer": "b",
+    "time_spent": 39,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:07:59"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q17",
+    "answer": "A base case",
+    "time_spent": 27,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:08:01"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q17",
+    "answer": "A base case",
+    "time_spent": 45,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:08:08"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q18",
+    "answer": "24",
+    "time_spent": 27,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:08:09"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q18",
+    "answer": "24",
+    "time_spent": 36,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:08:13"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q18",
+    "answer": "24",
+    "time_spent": 42,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:08:13"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q19",
+    "answer": "2",
+    "time_spent": 47,
+    "hints_used": 1,
+    "submitted_at": "2026-09-08T10:08:14"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q15",
+    "answer": " b ",
+    "time_spent": 64,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:08:14"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q16",
+    "answer": "KeyError",
+    "time_spent": 33,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:08:19"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q19",
+    "answer": "4",
+    "time_spent": 86,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:08:20"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q14",
+    "answer": "It stays until the program ends",
+    "time_spent": 72,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:08:22"
+  },
+  {
+    "student_id": "stu_20",
+    "question_id": "q16",
+    "answer": "KeyError",
+    "time_spent": 30,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:08:23"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q16",
+    "answer": "RecursionError",
+    "time_spent": 36,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:08:23"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q19",
+    "answer": "4",
+    "time_spent": 65,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:08:24"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q20",
+    "answer": "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)",
+    "time_spent": 110,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:08:25"
+  },
+  {
+    "student_id": "stu_9",
+    "question_id": "q15",
+    "answer": " b ",
+    "time_spent": 85,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:08:32"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q17",
+    "answer": "A for loop",
+    "time_spent": 80,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:08:33"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q16",
+    "answer": "RecursionError",
+    "time_spent": 13,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:08:33"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q15",
+    "answer": "b",
+    "time_spent": 78,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:08:37"
+  },
+  {
+    "student_id": "stu_20",
+    "question_id": "q17",
+    "answer": "A return type",
+    "time_spent": 8,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:08:38"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q18",
+    "answer": "120",
+    "time_spent": 23,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:08:39"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q16",
+    "answer": "SyntaxError",
+    "time_spent": 38,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:08:40"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q17",
+    "answer": "A base case",
+    "time_spent": 15,
+    "hints_used": 1,
+    "submitted_at": "2026-09-08T10:08:52"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q19",
+    "answer": "4",
+    "time_spent": 89,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:08:53"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q18",
+    "answer": "10",
+    "time_spent": 52,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:08:56"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q18",
+    "answer": "24",
+    "time_spent": 24,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:09:01"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q16",
+    "answer": "SyntaxError",
+    "time_spent": 65,
+    "hints_used": 1,
+    "submitted_at": "2026-09-08T10:09:08"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q17",
+    "answer": "A base case",
+    "time_spent": 40,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:09:11"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q20",
+    "answer": "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)",
+    "time_spent": 95,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:09:12"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q16",
+    "answer": "RecursionError",
+    "time_spent": 30,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:09:16"
+  },
+  {
+    "student_id": "stu_20",
+    "question_id": "q19",
+    "answer": "4",
+    "time_spent": 36,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:09:16"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q17",
+    "answer": "A for loop",
+    "time_spent": 35,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:09:21"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q17",
+    "answer": "A for loop",
+    "time_spent": 65,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:09:27"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q18",
+    "answer": "24",
+    "time_spent": 31,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:09:29"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q19",
+    "answer": "5",
+    "time_spent": 108,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:09:30"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q18",
+    "answer": "24",
+    "time_spent": 18,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:09:38"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q19",
+    "answer": "4",
+    "time_spent": 93,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:09:48"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q20",
+    "answer": "pass",
+    "time_spent": 237,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:09:48"
+  },
+  {
+    "student_id": "stu_9",
+    "question_id": "q16",
+    "answer": "KeyError",
+    "time_spent": 74,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:09:51"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q19",
+    "answer": "5",
+    "time_spent": 100,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:09:55"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q19",
+    "answer": "5",
+    "time_spent": 96,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:09:56"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q19",
+    "answer": "4",
+    "time_spent": 37,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:10:02"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q18",
+    "answer": "120",
+    "time_spent": 41,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:10:11"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q17",
+    "answer": "A for loop",
+    "time_spent": 51,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:10:15"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q19",
+    "answer": "4",
+    "time_spent": 37,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:10:15"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q17",
+    "answer": "A return type",
+    "time_spent": 66,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:10:17"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q15",
+    "answer": "a",
+    "time_spent": 113,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:10:18"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q20",
+    "answer": "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)",
+    "time_spent": 183,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:10:19"
+  },
+  {
+    "student_id": "stu_9",
+    "question_id": "q17",
+    "answer": "A base case",
+    "time_spent": 20,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:10:20"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q19",
+    "answer": "4",
+    "time_spent": 38,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:10:25"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q19",
+    "answer": "4",
+    "time_spent": 106,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:10:34"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q19",
+    "answer": "4",
+    "time_spent": 98,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:10:45"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q20",
+    "answer": "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)",
+    "time_spent": 165,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:10:46"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q16",
+    "answer": "SyntaxError",
+    "time_spent": 31,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:10:57"
+  },
+  {
+    "student_id": "stu_9",
+    "question_id": "q18",
+    "answer": "24",
+    "time_spent": 36,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:11:02"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q18",
+    "answer": "24",
+    "time_spent": 47,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:11:11"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q18",
+    "answer": "10",
+    "time_spent": 50,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:11:15"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q20",
+    "answer": "def factorial(n):\n    return n * factorial(n - 1)",
+    "time_spent": 320,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:11:23"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q20",
+    "answer": "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)",
+    "time_spent": 354,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:11:31"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q20",
+    "answer": "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)",
+    "time_spent": 184,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:11:32"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q19",
+    "answer": "3",
+    "time_spent": 78,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:11:34"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q17",
+    "answer": "A for loop",
+    "time_spent": 44,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:11:44"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q20",
+    "answer": "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)",
+    "time_spent": 216,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:11:55"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q20",
+    "answer": "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)",
+    "time_spent": 217,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:12:07"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q20",
+    "answer": "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)",
+    "time_spent": 155,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:12:35"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q19",
+    "answer": "4",
+    "time_spent": 84,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:12:44"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q18",
+    "answer": "16",
+    "time_spent": 59,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:12:51"
+  },
+  {
+    "student_id": "stu_9",
+    "question_id": "q19",
+    "answer": "4",
+    "time_spent": 103,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:12:53"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q20",
+    "answer": "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)",
+    "time_spent": 194,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:13:22"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q20",
+    "answer": "def factorial(n):\n    result = 1\n    for i in range(n):\n        result *= i\n    return result",
+    "time_spent": 178,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:13:38"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q19",
+    "answer": "2",
+    "time_spent": 138,
+    "hints_used": 1,
+    "submitted_at": "2026-09-08T10:13:40"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q20",
+    "answer": "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)",
+    "time_spent": 286,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:13:48"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q20",
+    "answer": "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)",
+    "time_spent": 287,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:13:48"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q20",
+    "answer": "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)",
+    "time_spent": 277,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:14:30"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q20",
+    "answer": "def factorial(n):\n    result = 1\n    for i in range(n):\n        result *= i\n    return result",
+    "time_spent": 185,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:15:54"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q19",
+    "answer": "2",
+    "time_spent": 180,
+    "hints_used": 1,
+    "submitted_at": "2026-09-08T10:15:54"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q20",
+    "answer": "pass",
+    "time_spent": 362,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:16:04"
+  },
+  {
+    "student_id": "stu_9",
+    "question_id": "q20",
+    "answer": "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)",
+    "time_spent": 189,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:16:06"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q20",
+    "answer": "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)",
+    "time_spent": 360,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:16:28"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q20",
+    "answer": "def factorial(n):\n    return n * factorial(n - 1)",
+    "time_spent": 212,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:17:19"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q20",
+    "answer": "pass",
+    "time_spent": 419,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:18:42"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q20",
+    "answer": "def factorial(n):\n    return n * factorial(n - 1)",
+    "time_spent": 186,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:19:05"
+  },
+  {
+    "student_id": "stu_20",
+    "question_id": "q20",
+    "answer": "pass",
+    "time_spent": 600,
+    "hints_used": 0,
+    "submitted_at": "2026-09-08T10:19:22"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q13",
+    "answer": "In the call stack frame",
+    "time_spent": 29,
+    "hints_used": 0,
+    "submitted_at": "2026-09-12T15:00:52"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q16",
+    "answer": "RecursionError",
+    "time_spent": 35,
+    "hints_used": 0,
+    "submitted_at": "2026-09-12T20:03:48"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q18",
+    "answer": "120",
+    "time_spent": 42,
+    "hints_used": 0,
+    "submitted_at": "2026-09-13T19:26:33"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q20",
+    "answer": "def factorial(n):\n    if n == 0:\n        return 0\n    return n * factorial(n - 1)",
+    "time_spent": 399,
+    "hints_used": 0,
+    "submitted_at": "2026-09-14T17:14:54"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q16",
+    "answer": "RecursionError",
+    "time_spent": 23,
+    "hints_used": 0,
+    "submitted_at": "2026-09-14T18:54:26"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q14",
+    "answer": "It is popped from the call stack",
+    "time_spent": 58,
+    "hints_used": 0,
+    "submitted_at": "2026-09-15T14:09:22"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q18",
+    "answer": "24",
+    "time_spent": 20,
+    "hints_used": 0,
+    "submitted_at": "2026-09-15T17:49:46"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q19",
+    "answer": "4",
+    "time_spent": 88,
+    "hints_used": 0,
+    "submitted_at": "2026-09-16T15:50:54"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q20",
+    "answer": "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n - 1)",
+    "time_spent": 137,
+    "hints_used": 0,
+    "submitted_at": "2026-09-16T17:51:23"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q16",
+    "answer": "SyntaxError",
+    "time_spent": 46,
+    "hints_used": 0,
+    "submitted_at": "2026-09-17T15:24:42"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q21",
+    "answer": "Results of earlier function calls",
+    "time_spent": 17,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:00:54"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q21",
+    "answer": "Results of earlier function calls",
+    "time_spent": 34,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:01:12"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q22",
+    "answer": "functools.lru_cache",
+    "time_spent": 46,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:01:22"
+  },
+  {
+    "student_id": "stu_5",
+    "question_id": "q21",
+    "answer": "The source code of the function",
+    "time_spent": 21,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:01:30"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q22",
+    "answer": "os.path",
+    "time_spent": 43,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:01:41"
+  },
+  {
+    "student_id": "stu_9",
+    "question_id": "q21",
+    "answer": "Only error messages",
+    "time_spent": 7,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:01:44"
+  },
+  {
+    "student_id": "stu_17",
+    "question_id": "q21",
+    "answer": "Results of earlier function calls",
+    "time_spent": 26,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:01:49"
+  },
+  {
+    "student_id": "stu_5",
+    "question_id": "q22",
+    "answer": "functools.lru_cache",
+    "time_spent": 19,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:01:51"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q21",
+    "answer": "Results of earlier function calls",
+    "time_spent": 54,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:01:54"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q22",
+    "answer": "functools.lru_cache",
+    "time_spent": 40,
+    "hints_used": 1,
+    "submitted_at": "2026-09-29T10:01:55"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q21",
+    "answer": "Results of earlier function calls",
+    "time_spent": 54,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:01:57"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q22",
+    "answer": "functools.lru_cache",
+    "time_spent": 18,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:02:15"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q21",
+    "answer": "Results of earlier function calls",
+    "time_spent": 41,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:02:16"
+  },
+  {
+    "student_id": "stu_9",
+    "question_id": "q22",
+    "answer": "functools.lru_cache",
+    "time_spent": 36,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:02:28"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q22",
+    "answer": "functools.lru_cache",
+    "time_spent": 29,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:02:32"
+  },
+  {
+    "student_id": "stu_17",
+    "question_id": "q22",
+    "answer": "functools.lru_cache",
+    "time_spent": 42,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:02:35"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q23",
+    "answer": "31",
+    "time_spent": 53,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:02:38"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q21",
+    "answer": "Results of earlier function calls",
+    "time_spent": 16,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:02:43"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q21",
+    "answer": "Names of all variables",
+    "time_spent": 74,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:02:50"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q23",
+    "answer": "31",
+    "time_spent": 88,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:02:52"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q23",
+    "answer": "31",
+    "time_spent": 65,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:03:02"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q23",
+    "answer": "29",
+    "time_spent": 33,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:03:09"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q21",
+    "answer": "Results of earlier function calls",
+    "time_spent": 32,
+    "hints_used": 1,
+    "submitted_at": "2026-09-29T10:03:12"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q22",
+    "answer": "functools.lru_cache",
+    "time_spent": 29,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:03:17"
+  },
+  {
+    "student_id": "stu_5",
+    "question_id": "q23",
+    "answer": "29",
+    "time_spent": 86,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:03:19"
+  },
+  {
+    "student_id": "stu_9",
+    "question_id": "q23",
+    "answer": "31",
+    "time_spent": 48,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:03:19"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q21",
+    "answer": "Results of earlier function calls",
+    "time_spent": 49,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:03:19"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q21",
+    "answer": "The source code of the function",
+    "time_spent": 49,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:03:19"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q22",
+    "answer": "functools.lru_cache",
+    "time_spent": 29,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:03:21"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q21",
+    "answer": "Results of earlier function calls",
+    "time_spent": 25,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:03:28"
+  },
+  {
+    "student_id": "stu_17",
+    "question_id": "q23",
+    "answer": "31",
+    "time_spent": 50,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:03:34"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q22",
+    "answer": "os.path",
+    "time_spent": 80,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:03:43"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q22",
+    "answer": "functools.lru_cache",
+    "time_spent": 15,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:03:47"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q23",
+    "answer": "29",
+    "time_spent": 85,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:03:48"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q22",
+    "answer": "functools.lru_cache",
+    "time_spent": 28,
+    "hints_used": 1,
+    "submitted_at": "2026-09-29T10:03:54"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q23",
+    "answer": "31",
+    "time_spent": 50,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:04:10"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q21",
+    "answer": "Results of earlier function calls",
+    "time_spent": 40,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:04:24"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q21",
+    "answer": "Results of earlier function calls",
+    "time_spent": 47,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:04:26"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q22",
+    "answer": "functools.lru_cache",
+    "time_spent": 68,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:04:29"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q23",
+    "answer": "31",
+    "time_spent": 70,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:04:38"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q23",
+    "answer": "31",
+    "time_spent": 51,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:04:41"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q23",
+    "answer": "31",
+    "time_spent": 77,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:04:43"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q22",
+    "answer": "itertools.chain",
+    "time_spent": 46,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:04:54"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q22",
+    "answer": "functools.lru_cache",
+    "time_spent": 24,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:04:56"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q21",
+    "answer": "Names of all variables",
+    "time_spent": 51,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:04:57"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q22",
+    "answer": "functools.lru_cache",
+    "time_spent": 30,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:04:59"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q21",
+    "answer": "Results of earlier function calls",
+    "time_spent": 21,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:05:05"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q21",
+    "answer": "Results of earlier function calls",
+    "time_spent": 51,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:05:15"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q23",
+    "answer": "29",
+    "time_spent": 77,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:05:15"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q21",
+    "answer": "Results of earlier function calls",
+    "time_spent": 46,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:05:21"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q21",
+    "answer": "The source code of the function",
+    "time_spent": 24,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:05:24"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q21",
+    "answer": "Only error messages",
+    "time_spent": 61,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:05:28"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q22",
+    "answer": "itertools.chain",
+    "time_spent": 42,
+    "hints_used": 1,
+    "submitted_at": "2026-09-29T10:05:41"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    if n <= 1:\n        return n\n    memo[n] = fib(n - 1) + fib(n - 2)\n    return memo[n]",
+    "time_spent": 186,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:05:50"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q23",
+    "answer": "31",
+    "time_spent": 49,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:05:55"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q22",
+    "answer": "functools.lru_cache",
+    "time_spent": 26,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:05:55"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q22",
+    "answer": "random.seed",
+    "time_spent": 24,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:05:55"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q23",
+    "answer": "60",
+    "time_spent": 58,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:05:57"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q22",
+    "answer": "itertools.chain",
+    "time_spent": 35,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:05:58"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q23",
+    "answer": "31",
+    "time_spent": 62,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:06:00"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q22",
+    "answer": "functools.lru_cache",
+    "time_spent": 33,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:06:00"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q21",
+    "answer": "The source code of the function",
+    "time_spent": 22,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:06:01"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q22",
+    "answer": "functools.lru_cache",
+    "time_spent": 51,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:06:04"
+  },
+  {
+    "student_id": "stu_20",
+    "question_id": "q21",
+    "answer": "The source code of the function",
+    "time_spent": 26,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:06:08"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q21",
+    "answer": "Only error messages",
+    "time_spent": 42,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:06:20"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q21",
+    "answer": "Results of earlier function calls",
+    "time_spent": 38,
+    "hints_used": 1,
+    "submitted_at": "2026-09-29T10:06:21"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q21",
+    "answer": "Names of all variables",
+    "time_spent": 10,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:06:25"
+  },
+  {
+    "student_id": "stu_9",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fib(n - 1, memo) + fib(n - 2, memo)\n    return memo[n]",
+    "time_spent": 179,
+    "hints_used": 1,
+    "submitted_at": "2026-09-29T10:06:26"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q23",
+    "answer": "31",
+    "time_spent": 34,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:06:41"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q22",
+    "answer": "random.seed",
+    "time_spent": 8,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:06:41"
+  },
+  {
+    "student_id": "stu_20",
+    "question_id": "q22",
+    "answer": "functools.lru_cache",
+    "time_spent": 26,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:06:42"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q25",
+    "answer": "Recursion and a loop",
+    "time_spent": 53,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:06:47"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q22",
+    "answer": "functools.lru_cache",
+    "time_spent": 48,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:06:57"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q22",
+    "answer": "os.path",
+    "time_spent": 35,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:06:58"
+  },
+  {
+    "student_id": "stu_9",
+    "question_id": "q25",
+    "answer": "A graph and positive weights",
+    "time_spent": 32,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:07:04"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q22",
+    "answer": "functools.lru_cache",
+    "time_spent": 37,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:07:04"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q23",
+    "answer": "31",
+    "time_spent": 153,
+    "hints_used": 1,
+    "submitted_at": "2026-09-29T10:07:08"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q23",
+    "answer": "31",
+    "time_spent": 65,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:07:08"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q23",
+    "answer": "30",
+    "time_spent": 64,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:07:08"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q21",
+    "answer": "The source code of the function",
+    "time_spent": 49,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:07:20"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fib(n - 1, memo) + fib(n - 2, memo)\n    return memo[n]",
+    "time_spent": 211,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:07:26"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q23",
+    "answer": "30",
+    "time_spent": 103,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:07:27"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fib(n - 1, memo) + fib(n - 2, memo)\n    return memo[n]",
+    "time_spent": 167,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:07:36"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q23",
+    "answer": "31",
+    "time_spent": 89,
+    "hints_used": 1,
+    "submitted_at": "2026-09-29T10:07:38"
+  },
+  {
+    "student_id": "stu_9",
+    "question_id": "q27",
+    "answer": "O(n)",
+    "time_spent": 30,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:07:40"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fib(n - 1, memo) + fib(n - 2, memo)\n    return memo[n]",
+    "time_spent": 209,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:07:43"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fib(n - 1, memo) + fib(n - 2, memo)\n    return memo[n]",
+    "time_spent": 283,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:07:47"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q23",
+    "answer": "60",
+    "time_spent": 108,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:07:47"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q23",
+    "answer": "31",
+    "time_spent": 43,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:07:48"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q26",
+    "answer": "5",
+    "time_spent": 59,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:07:52"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q22",
+    "answer": "os.path",
+    "time_spent": 32,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:08:00"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q23",
+    "answer": "31",
+    "time_spent": 63,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:08:10"
+  },
+  {
+    "student_id": "stu_20",
+    "question_id": "q23",
+    "answer": "60",
+    "time_spent": 88,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:08:13"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q25",
+    "answer": "Overlapping subproblems and optimal substructure",
+    "time_spent": 33,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:08:16"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q25",
+    "answer": "Recursion and a loop",
+    "time_spent": 51,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:08:19"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    return memo[n]",
+    "time_spent": 319,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:08:20"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q27",
+    "answer": "O(2^n)",
+    "time_spent": 22,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:08:22"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q23",
+    "answer": "31",
+    "time_spent": 79,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:08:26"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q23",
+    "answer": "31",
+    "time_spent": 106,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:08:31"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q25",
+    "answer": "Overlapping subproblems and optimal substructure",
+    "time_spent": 38,
+    "hints_used": 1,
+    "submitted_at": "2026-09-29T10:08:31"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q25",
+    "answer": "Overlapping subproblems and optimal substructure",
+    "time_spent": 26,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:08:54"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q26",
+    "answer": "5",
+    "time_spent": 64,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:08:56"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q25",
+    "answer": "Sorted input and unique keys",
+    "time_spent": 68,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:08:56"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    return memo[n]",
+    "time_spent": 252,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:09:02"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q26",
+    "answer": "5",
+    "time_spent": 44,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:09:05"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    return memo[n]",
+    "time_spent": 365,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:09:21"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q24",
+    "answer": "pass",
+    "time_spent": 284,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:09:29"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q26",
+    "answer": "5",
+    "time_spent": 35,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:09:31"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q25",
+    "answer": "Overlapping subproblems and optimal substructure",
+    "time_spent": 21,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:09:32"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q27",
+    "answer": "O(n)",
+    "time_spent": 22,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:09:34"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q24",
+    "answer": "pass",
+    "time_spent": 339,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:09:35"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    return memo[n]",
+    "time_spent": 142,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:09:36"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q26",
+    "answer": "5",
+    "time_spent": 81,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:09:46"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fib(n - 1, memo) + fib(n - 2, memo)\n    return memo[n]",
+    "time_spent": 225,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:09:47"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    if n <= 1:\n        return n\n    memo[n] = fib(n - 1) + fib(n - 2)\n    return memo[n]",
+    "time_spent": 232,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:09:54"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q25",
+    "answer": "A graph and positive weights",
+    "time_spent": 31,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:09:54"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q26",
+    "answer": "4",
+    "time_spent": 88,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:10:01"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q26",
+    "answer": "8",
+    "time_spent": 61,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:10:04"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q27",
+    "answer": "O(n)",
+    "time_spent": 28,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:10:06"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q26",
+    "answer": "8",
+    "time_spent": 47,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:10:21"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q23",
+    "answer": "60",
+    "time_spent": 133,
+    "hints_used": 1,
+    "submitted_at": "2026-09-29T10:10:21"
+  },
+  {
+    "student_id": "stu_5",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    if n <= 1:\n        return n\n    memo[n] = fib(n - 1) + fib(n - 2)\n    return memo[n]",
+    "time_spent": 416,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:10:23"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q25",
+    "answer": "A graph and positive weights",
+    "time_spent": 50,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:10:25"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q25",
+    "answer": "A graph and positive weights",
+    "time_spent": 50,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:10:28"
+  },
+  {
+    "student_id": "stu_10",
+    "question_id": "q27",
+    "answer": "O(n)",
+    "time_spent": 47,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:10:35"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q25",
+    "answer": "Overlapping subproblems and optimal substructure",
+    "time_spent": 38,
+    "hints_used": 1,
+    "submitted_at": "2026-09-29T10:10:36"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q24",
+    "answer": "",
+    "time_spent": 187,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:10:39"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q27",
+    "answer": "O(2^n)",
+    "time_spent": 8,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:10:42"
+  },
+  {
+    "student_id": "stu_5",
+    "question_id": "q25",
+    "answer": "Overlapping subproblems and optimal substructure",
+    "time_spent": 17,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:10:44"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q25",
+    "answer": "Overlapping subproblems and optimal substructure",
+    "time_spent": 65,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:10:46"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q25",
+    "answer": "A graph and positive weights",
+    "time_spent": 56,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:10:47"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q27",
+    "answer": "O(2^n)",
+    "time_spent": 42,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:10:47"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q27",
+    "answer": "O(n)",
+    "time_spent": 43,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:10:54"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q27",
+    "answer": "O(log n)",
+    "time_spent": 30,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:10:55"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q26",
+    "answer": "5",
+    "time_spent": 67,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:11:05"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    if n <= 1:\n        return n\n    memo[n] = fib(n - 1) + fib(n - 2)\n    return memo[n]",
+    "time_spent": 303,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:11:07"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q26",
+    "answer": "5",
+    "time_spent": 45,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:11:19"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q26",
+    "answer": "6",
+    "time_spent": 38,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:11:29"
+  },
+  {
+    "student_id": "stu_5",
+    "question_id": "q26",
+    "answer": "5",
+    "time_spent": 42,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:11:32"
+  },
+  {
+    "student_id": "stu_9",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    if n <= 2:\n        return n\n    return climb(n - 1) + climb(n - 2)",
+    "time_spent": 234,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:11:37"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q24",
+    "answer": "",
+    "time_spent": 380,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:11:37"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fib(n - 1, memo) + fib(n - 2, memo)\n    return memo[n]",
+    "time_spent": 265,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:11:42"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q27",
+    "answer": "O(n)",
+    "time_spent": 32,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:11:42"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q25",
+    "answer": "Sorted input and unique keys",
+    "time_spent": 58,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:11:45"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q27",
+    "answer": "O(n)",
+    "time_spent": 27,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:11:52"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q26",
+    "answer": "5",
+    "time_spent": 71,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:11:56"
+  },
+  {
+    "student_id": "stu_1",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    dp = [0] * n\n    for i in range(n):\n        dp[i] = dp[i - 1] + dp[i - 2]\n    return dp[-1]",
+    "time_spent": 213,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:11:58"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q27",
+    "answer": "O(2^n)",
+    "time_spent": 28,
+    "hints_used": 1,
+    "submitted_at": "2026-09-29T10:12:15"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q27",
+    "answer": "O(2^n)",
+    "time_spent": 46,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:12:23"
+  },
+  {
+    "student_id": "stu_20",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    if n <= 1:\n        return n\n    memo[n] = fib(n - 1) + fib(n - 2)\n    return memo[n]",
+    "time_spent": 247,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:12:26"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q26",
+    "answer": "5",
+    "time_spent": 79,
+    "hints_used": 1,
+    "submitted_at": "2026-09-29T10:12:28"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q25",
+    "answer": "Sorted input and unique keys",
+    "time_spent": 49,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:12:29"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q27",
+    "answer": "O(n)",
+    "time_spent": 41,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:12:41"
+  },
+  {
+    "student_id": "stu_17",
+    "question_id": "q24",
+    "answer": "pass",
+    "time_spent": 539,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:12:42"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    return memo[n]",
+    "time_spent": 275,
+    "hints_used": 1,
+    "submitted_at": "2026-09-29T10:12:47"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q25",
+    "answer": "Sorted input and unique keys",
+    "time_spent": 63,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:12:53"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q24",
+    "answer": "def fib(n):\n    if n <= 1:\n        return n\n    return fib(n - 1) + fib(n - 2)",
+    "time_spent": 259,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:12:57"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q25",
+    "answer": "Recursion and a loop",
+    "time_spent": 9,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:13:05"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q24",
+    "answer": "",
+    "time_spent": 355,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:13:06"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q26",
+    "answer": "4",
+    "time_spent": 139,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:13:14"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    if n <= 1:\n        return n\n    memo[n] = fib(n - 1) + fib(n - 2)\n    return memo[n]",
+    "time_spent": 340,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:13:20"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q27",
+    "answer": "O(log n)",
+    "time_spent": 45,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:13:22"
+  },
+  {
+    "student_id": "stu_20",
+    "question_id": "q25",
+    "answer": "Sorted input and unique keys",
+    "time_spent": 60,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:13:30"
+  },
+  {
+    "student_id": "stu_17",
+    "question_id": "q25",
+    "answer": "Overlapping subproblems and optimal substructure",
+    "time_spent": 48,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:13:32"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q26",
+    "answer": "6",
+    "time_spent": 32,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:13:34"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q25",
+    "answer": "A graph and positive weights",
+    "time_spent": 38,
+    "hints_used": 1,
+    "submitted_at": "2026-09-29T10:13:42"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q25",
+    "answer": "Overlapping subproblems and optimal substructure",
+    "time_spent": 31,
+    "hints_used": 1,
+    "submitted_at": "2026-09-29T10:13:42"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q25",
+    "answer": "Overlapping subproblems and optimal substructure",
+    "time_spent": 34,
+    "hints_used": 1,
+    "submitted_at": "2026-09-29T10:13:58"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fib(n - 1, memo) + fib(n - 2, memo)\n    return memo[n]",
+    "time_spent": 210,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:13:59"
+  },
+  {
+    "student_id": "stu_25",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    if n <= 2:\n        return n\n    dp = [0] * (n + 1)\n    dp[1], dp[2] = 1, 2\n    for i in range(3, n + 1):\n        dp[i] = dp[i - 1] + dp[i - 2]\n    return dp[n]",
+    "time_spent": 188,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:14:05"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q26",
+    "answer": "6",
+    "time_spent": 96,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:14:07"
+  },
+  {
+    "student_id": "stu_24",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    dp = [0] * n\n    for i in range(n):\n        dp[i] = dp[i - 1] + dp[i - 2]\n    return dp[-1]",
+    "time_spent": 208,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:14:17"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q27",
+    "answer": "O(n)",
+    "time_spent": 56,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:14:18"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q26",
+    "answer": "6",
+    "time_spent": 72,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:14:19"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    dp = [0] * n\n    for i in range(n):\n        dp[i] = dp[i - 1] + dp[i - 2]\n    return dp[-1]",
+    "time_spent": 160,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:14:35"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q27",
+    "answer": "O(2^n)",
+    "time_spent": 59,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:14:41"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q27",
+    "answer": "O(n)",
+    "time_spent": 19,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:14:45"
+  },
+  {
+    "student_id": "stu_13",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    return n",
+    "time_spent": 309,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:14:46"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q25",
+    "answer": "Recursion and a loop",
+    "time_spent": 46,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:14:47"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q27",
+    "answer": "O(n)",
+    "time_spent": 35,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:14:47"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q27",
+    "answer": "O(2^n)",
+    "time_spent": 63,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:14:49"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q27",
+    "answer": "O(2^n)",
+    "time_spent": 43,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:14:50"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fib(n - 1, memo) + fib(n - 2, memo)\n    return memo[n]",
+    "time_spent": 376,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:14:51"
+  },
+  {
+    "student_id": "stu_5",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    if n <= 2:\n        return n\n    dp = [0] * (n + 1)\n    dp[1], dp[2] = 1, 2\n    for i in range(3, n + 1):\n        dp[i] = dp[i - 1] + dp[i - 2]\n    return dp[n]",
+    "time_spent": 214,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:15:08"
+  },
+  {
+    "student_id": "stu_17",
+    "question_id": "q26",
+    "answer": "5",
+    "time_spent": 95,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:15:09"
+  },
+  {
+    "student_id": "stu_20",
+    "question_id": "q26",
+    "answer": "4",
+    "time_spent": 98,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:15:11"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    if n <= 2:\n        return n\n    return climb(n - 1) + climb(n - 2)",
+    "time_spent": 250,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:15:14"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q26",
+    "answer": "6",
+    "time_spent": 104,
+    "hints_used": 1,
+    "submitted_at": "2026-09-29T10:15:34"
+  },
+  {
+    "student_id": "stu_6",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    if n <= 2:\n        return n\n    dp = [0] * (n + 1)\n    dp[1], dp[2] = 1, 2\n    for i in range(3, n + 1):\n        dp[i] = dp[i - 1] + dp[i - 2]\n    return dp[n]",
+    "time_spent": 401,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:15:40"
+  },
+  {
+    "student_id": "stu_17",
+    "question_id": "q27",
+    "answer": "O(n)",
+    "time_spent": 23,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:15:40"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    if n <= 2:\n        return n\n    dp = [0] * (n + 1)\n    dp[1], dp[2] = 1, 2\n    for i in range(3, n + 1):\n        dp[i] = dp[i - 1] + dp[i - 2]\n    return dp[n]",
+    "time_spent": 298,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:15:48"
+  },
+  {
+    "student_id": "stu_20",
+    "question_id": "q27",
+    "answer": "O(2^n)",
+    "time_spent": 56,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:16:15"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q27",
+    "answer": "O(2^n)",
+    "time_spent": 41,
+    "hints_used": 1,
+    "submitted_at": "2026-09-29T10:16:20"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q26",
+    "answer": "8",
+    "time_spent": 87,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:16:22"
+  },
+  {
+    "student_id": "stu_18",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    if n <= 2:\n        return n\n    dp = [0] * (n + 1)\n    dp[1], dp[2] = 1, 2\n    for i in range(3, n + 1):\n        dp[i] = dp[i - 1] + dp[i - 2]\n    return dp[n]",
+    "time_spent": 234,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:16:25"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q26",
+    "answer": "6",
+    "time_spent": 106,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:16:44"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q27",
+    "answer": "O(n)",
+    "time_spent": 21,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:17:07"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    if n <= 2:\n        return n\n    dp = [0] * (n + 1)\n    dp[1], dp[2] = 1, 2\n    for i in range(3, n + 1):\n        dp[i] = dp[i - 1] + dp[i - 2]\n    return dp[n]",
+    "time_spent": 417,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:17:09"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q27",
+    "answer": "O(n^2)",
+    "time_spent": 62,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:17:29"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    if n <= 2:\n        return n\n    dp = [0] * (n + 1)\n    dp[1], dp[2] = 1, 2\n    for i in range(3, n + 1):\n        dp[i] = dp[i - 1] + dp[i - 2]\n    return dp[n]",
+    "time_spent": 168,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:17:44"
+  },
+  {
+    "student_id": "stu_17",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    if n <= 2:\n        return n\n    dp = [0] * (n + 1)\n    dp[1], dp[2] = 1, 2\n    for i in range(3, n + 1):\n        dp[i] = dp[i - 1] + dp[i - 2]\n    return dp[n]",
+    "time_spent": 122,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:17:50"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    dp = [0] * n\n    for i in range(n):\n        dp[i] = dp[i - 1] + dp[i - 2]\n    return dp[-1]",
+    "time_spent": 378,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:18:07"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    if n <= 2:\n        return n\n    dp = [0] * (n + 1)\n    dp[1], dp[2] = 1, 2\n    for i in range(3, n + 1):\n        dp[i] = dp[i - 1] + dp[i - 2]\n    return dp[n]",
+    "time_spent": 201,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:18:14"
+  },
+  {
+    "student_id": "stu_3",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    return n",
+    "time_spent": 362,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:18:20"
+  },
+  {
+    "student_id": "stu_29",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    if n <= 2:\n        return n\n    dp = [0] * (n + 1)\n    dp[1], dp[2] = 1, 2\n    for i in range(3, n + 1):\n        dp[i] = dp[i - 1] + dp[i - 2]\n    return dp[n]",
+    "time_spent": 215,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:18:32"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    if n <= 2:\n        return n\n    return climb(n - 1) + climb(n - 2)",
+    "time_spent": 222,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:18:36"
+  },
+  {
+    "student_id": "stu_26",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    if n <= 2:\n        return n\n    dp = [0] * (n + 1)\n    dp[1], dp[2] = 1, 2\n    for i in range(3, n + 1):\n        dp[i] = dp[i - 1] + dp[i - 2]\n    return dp[n]",
+    "time_spent": 253,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:18:36"
+  },
+  {
+    "student_id": "stu_28",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    return n",
+    "time_spent": 327,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:18:54"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    if n <= 2:\n        return n\n    dp = [0] * (n + 1)\n    dp[1], dp[2] = 1, 2\n    for i in range(3, n + 1):\n        dp[i] = dp[i - 1] + dp[i - 2]\n    return dp[n]",
+    "time_spent": 406,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:19:36"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    if n <= 1:\n        return n\n    memo[n] = fib(n - 1) + fib(n - 2)\n    return memo[n]",
+    "time_spent": 798,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:20:06"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q25",
+    "answer": "Sorted input and unique keys",
+    "time_spent": 9,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:20:20"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q24",
+    "answer": "",
+    "time_spent": 774,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:20:46"
+  },
+  {
+    "student_id": "stu_16",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    if n <= 2:\n        return n\n    dp = [0] * (n + 1)\n    dp[1], dp[2] = 1, 2\n    for i in range(3, n + 1):\n        dp[i] = dp[i - 1] + dp[i - 2]\n    return dp[n]",
+    "time_spent": 204,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:20:55"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q25",
+    "answer": "A graph and positive weights",
+    "time_spent": 29,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:21:19"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q26",
+    "answer": "4",
+    "time_spent": 38,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:22:03"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q26",
+    "answer": "8",
+    "time_spent": 102,
+    "hints_used": 1,
+    "submitted_at": "2026-09-29T10:22:08"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    if n <= 2:\n        return n\n    return climb(n - 1) + climb(n - 2)",
+    "time_spent": 443,
+    "hints_used": 1,
+    "submitted_at": "2026-09-29T10:22:13"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q27",
+    "answer": "O(2^n)",
+    "time_spent": 18,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:22:26"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q27",
+    "answer": "O(n)",
+    "time_spent": 23,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:22:34"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    if n <= 2:\n        return n\n    return climb(n - 1) + climb(n - 2)",
+    "time_spent": 537,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:25:19"
+  },
+  {
+    "student_id": "stu_19",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    if n <= 2:\n        return n\n    return climb(n - 1) + climb(n - 2)",
+    "time_spent": 502,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:25:38"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q28",
+    "answer": "",
+    "time_spent": 221,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:26:10"
+  },
+  {
+    "student_id": "stu_20",
+    "question_id": "q28",
+    "answer": "pass",
+    "time_spent": 589,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:26:11"
+  },
+  {
+    "student_id": "stu_8",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    return n",
+    "time_spent": 299,
+    "hints_used": 0,
+    "submitted_at": "2026-09-29T10:27:38"
+  },
+  {
+    "student_id": "stu_14",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fib(n - 1, memo) + fib(n - 2, memo)\n    return memo[n]",
+    "time_spent": 337,
+    "hints_used": 0,
+    "submitted_at": "2026-10-03T15:32:47"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q23",
+    "answer": "31",
+    "time_spent": 85,
+    "hints_used": 0,
+    "submitted_at": "2026-10-03T16:01:09"
+  },
+  {
+    "student_id": "stu_12",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    dp = [0] * n\n    for i in range(n):\n        dp[i] = dp[i - 1] + dp[i - 2]\n    return dp[-1]",
+    "time_spent": 205,
+    "hints_used": 0,
+    "submitted_at": "2026-10-03T16:02:10"
+  },
+  {
+    "student_id": "stu_22",
+    "question_id": "q25",
+    "answer": "Overlapping subproblems and optimal substructure",
+    "time_spent": 39,
+    "hints_used": 0,
+    "submitted_at": "2026-10-03T16:30:42"
+  },
+  {
+    "student_id": "stu_4",
+    "question_id": "q26",
+    "answer": "5",
+    "time_spent": 63,
+    "hints_used": 0,
+    "submitted_at": "2026-10-03T16:52:21"
+  },
+  {
+    "student_id": "stu_15",
+    "question_id": "q25",
+    "answer": "Overlapping subproblems and optimal substructure",
+    "time_spent": 28,
+    "hints_used": 0,
+    "submitted_at": "2026-10-04T15:10:25"
+  },
+  {
+    "student_id": "stu_27",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    if n <= 2:\n        return n\n    dp = [0] * (n + 1)\n    dp[1], dp[2] = 1, 2\n    for i in range(3, n + 1):\n        dp[i] = dp[i - 1] + dp[i - 2]\n    return dp[n]",
+    "time_spent": 200,
+    "hints_used": 0,
+    "submitted_at": "2026-10-05T18:17:07"
+  },
+  {
+    "student_id": "stu_21",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fib(n - 1, memo) + fib(n - 2, memo)\n    return memo[n]",
+    "time_spent": 162,
+    "hints_used": 0,
+    "submitted_at": "2026-10-05T19:22:54"
+  },
+  {
+    "student_id": "stu_9",
+    "question_id": "q25",
+    "answer": "Overlapping subproblems and optimal substructure",
+    "time_spent": 41,
+    "hints_used": 0,
+    "submitted_at": "2026-10-06T15:05:04"
+  },
+  {
+    "student_id": "stu_11",
+    "question_id": "q22",
+    "answer": "functools.lru_cache",
+    "time_spent": 30,
+    "hints_used": 0,
+    "submitted_at": "2026-10-06T19:40:58"
+  },
+  {
+    "student_id": "stu_23",
+    "question_id": "q28",
+    "answer": "def climb(n):\n    return n",
+    "time_spent": 358,
+    "hints_used": 0,
+    "submitted_at": "2026-10-07T16:29:36"
+  },
+  {
+    "student_id": "stu_30",
+    "question_id": "q22",
+    "answer": "itertools.chain",
+    "time_spent": 68,
+    "hints_used": 0,
+    "submitted_at": "2026-10-07T19:43:55"
+  },
+  {
+    "student_id": "stu_7",
+    "question_id": "q24",
+    "answer": "def fib(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n <= 1:\n        return n\n    memo[n] = fib(n - 1, memo) + fib(n - 2, memo)\n    return memo[n]",
+    "time_spent": 303,
+    "hints_used": 0,
+    "submitted_at": "2026-10-08T14:18:20"
+  },
+  {
+    "student_id": "stu_2",
+    "question_id": "q27",
+    "answer": "O(2^n)",
+    "time_spent": 43,
+    "hints_used": 0,
+    "submitted_at": "2026-10-08T16:57:41"
+  }
+]
