@@ -1,0 +1,109 @@
+import type { DashboardStudent, CellSeverity } from '../types'
+
+interface Props {
+  concepts: string[]
+  students: DashboardStudent[]
+  onSelect: (id: string) => void
+}
+
+export default function HeatmapTable({ concepts, students, onSelect }: Props) {
+  const getCellStyle = (severity: CellSeverity): string => {
+    const styles: Record<CellSeverity, string> = {
+      critical: 'bg-accent text-onAccent',
+      high: 'bg-accentSoft',
+      medium: 'border border-accent bg-transparent',
+      low: 'bg-muteSoft',
+      none: 'bg-surface border border-line',
+    }
+    return styles[severity]
+  }
+
+  const getSeverityLabel = (severity: CellSeverity): string => {
+    return severity.charAt(0).toUpperCase() + severity.slice(1)
+  }
+
+  return (
+    <div className="space-y-4">
+      <div className="overflow-x-auto">
+        <table className="w-full border-collapse">
+          <thead>
+            <tr className="border-b border-line">
+              <th className="text-left p-3 text-xs font-mono tracking-wider text-mute sticky left-0 bg-bg">
+                Student
+              </th>
+              {concepts.map((concept) => (
+                <th key={concept} className="text-left p-3 text-xs font-mono tracking-wider text-mute min-w-[120px]">
+                  {concept}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {students.map((student) => {
+              const mastery = Math.round(student.overall_mastery * 100)
+              return (
+                <tr
+                  key={student.student_id}
+                  onClick={() => onSelect(student.student_id)}
+                  onKeyDown={(e) => {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                      e.preventDefault()
+                      onSelect(student.student_id)
+                    }
+                  }}
+                  tabIndex={0}
+                  className="border-b border-line cursor-pointer hover:bg-surface transition-colors duration-150"
+                >
+                  <td className="p-3 sticky left-0 bg-bg">
+                    <div className="space-y-1">
+                      <div className="font-medium text-ink">{student.name}</div>
+                      <div className="text-xs font-mono tracking-wider text-mute">{mastery}%</div>
+                    </div>
+                  </td>
+                  {student.cells.map((cell, i) => {
+                    const cellMastery = cell.mastery !== null ? Math.round(cell.mastery * 100) : null
+                    const severityLabel = getSeverityLabel(cell.severity)
+                    return (
+                      <td key={i} className="p-3">
+                        <div
+                          className={`px-3 py-2 rounded text-center text-sm font-mono ${getCellStyle(cell.severity)}`}
+                          aria-label={`${cell.concept}: ${severityLabel}, ${cellMastery !== null ? cellMastery + ' percent' : 'no data'}`}
+                        >
+                          {cellMastery !== null ? `${cellMastery}%` : '—'}
+                        </div>
+                      </td>
+                    )
+                  })}
+                </tr>
+              )
+            })}
+          </tbody>
+        </table>
+      </div>
+
+      <div className="flex flex-wrap items-center gap-4 text-xs font-mono tracking-wider">
+        <span className="text-mute">Legend:</span>
+        <div className="flex items-center gap-2">
+          <div className="w-4 h-4 rounded bg-accent"></div>
+          <span className="text-ink">Critical</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <div className="w-4 h-4 rounded bg-accentSoft"></div>
+          <span className="text-ink">High</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <div className="w-4 h-4 rounded border border-accent"></div>
+          <span className="text-ink">Medium</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <div className="w-4 h-4 rounded bg-muteSoft"></div>
+          <span className="text-ink">Low</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <div className="w-4 h-4 rounded bg-surface border border-line"></div>
+          <span className="text-ink">None</span>
+        </div>
+      </div>
+    </div>
+  )
+}
