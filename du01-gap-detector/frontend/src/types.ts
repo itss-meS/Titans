@@ -84,3 +84,31 @@ export interface SubmitOut {
   correct_answer: unknown;
   explanation: string;
 }
+
+export interface Subject {
+  id: string;
+  name: string;
+  class_id: number;
+  concepts: string[];
+}
+
+export interface StudentOut {
+  id: string;
+  name: string;
+  class_id: number;
+}
+
+export interface GeneratedQuestion {
+  id: string;
+  stem: string;
+  type: QType;
+  options: string[];
+  correct_answer: unknown;
+  topics: string[];
+  difficulty: number;
+  rubric: Record<string, unknown>;
+}
+
+export interface GenerateOut {
+  questions: GeneratedQuestion[];
+}

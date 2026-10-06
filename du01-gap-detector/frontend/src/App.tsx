@@ -1,6 +1,7 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
 import { homePath } from './auth'
 import Login from './pages/Login'
+import SubjectSelect from './pages/SubjectSelect'
 import TeacherDashboard from './pages/TeacherDashboard'
 import StudentReport from './pages/StudentReport'
 import PracticePlayer from './pages/PracticePlayer'
@@ -12,6 +13,16 @@ export default function App() {
     <Routes>
       <Route path="/login" element={<Login />} />
       <Route path="/" element={<Navigate to={homePath()} replace />} />
+      <Route
+        path="/teacher/subject"
+        element={
+          <ProtectedRoute roles={['teacher']}>
+            <Layout>
+              <SubjectSelect />
+            </Layout>
+          </ProtectedRoute>
+        }
+      />
       <Route
         path="/teacher"
         element={

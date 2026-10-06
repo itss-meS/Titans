@@ -41,7 +41,10 @@ def detect_gaps_route(req: DetectRequest):
 
 @app.post("/recommend", response_model=List[RecommendationOut])
 def recommend_route(req: RecommendRequest):
-    return recommend([g.model_dump(mode="json") for g in req.gaps])
+    return recommend(
+        [g.model_dump(mode="json") for g in req.gaps],
+        req.strengths
+    )
 
 
 @app.post("/generate-practice", response_model=List[PracticeQOut])

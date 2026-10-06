@@ -8,6 +8,7 @@ class Severity(str, Enum):
     high = "high"
     medium = "medium"
     low = "low"
+    none = "none"
 
 
 class QType(str, Enum):
@@ -46,8 +47,8 @@ class GapOut(BaseModel):
 
 class ConceptMastery(BaseModel):
     concept: str
-    mastery: float
-    severity: Severity
+    mastery: Optional[float] = None
+    severity: str
 
 
 class RecommendationOut(BaseModel):
@@ -86,6 +87,7 @@ class DetectResponse(BaseModel):
 
 class RecommendRequest(BaseModel):
     gaps: List[GapOut]
+    strengths: Optional[List[str]] = []
 
 
 class PracticeRequest(BaseModel):

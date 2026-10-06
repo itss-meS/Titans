@@ -172,6 +172,30 @@ def test_generate():
     assert generate(r["gaps"], count=0) == []
 
 
+def test_different_students_different_recommendations():
+    r1 = detect_gaps("stu_1", STU_1, QUESTIONS)
+    r3 = detect_gaps("stu_3", STU_3, QUESTIONS)
+    recs1 = recommend(r1["gaps"])
+    recs3 = recommend(r3["gaps"])
+    assert recs1 != recs3
+
+
+def test_no_gaps_stretch_recommendations():
+    recs = recommend([], strengths=["Variables", "Loops"])
+    assert len(recs) == 2
+    assert recs[0]["type"] == "stretch"
+    assert "Advanced Challenge: Variables" in recs[0]["title"]
+
+
+def test_no_recommendation_leakage():
+    r1 = detect_gaps("stu_1", STU_1, QUESTIONS)
+    recs1_a = recommend(r1["gaps"])
+    recs_empty = recommend([])
+    recs1_b = recommend(r1["gaps"])
+    assert recs1_a == recs1_b
+    assert recs1_a != recs_empty
+
+
 def test_endpoints():
     client = TestClient(app)
     health = client.get("/health")
@@ -198,5 +222,8 @@ if __name__ == "__main__":
     test_determinism()
     test_recommend()
     test_generate()
+    test_different_students_different_recommendations()
+    test_no_gaps_stretch_recommendations()
+    test_no_recommendation_leakage()
     test_endpoints()
     print("All tests passed")

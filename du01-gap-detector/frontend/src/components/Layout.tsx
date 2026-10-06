@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Menu, X, Sun, Moon } from 'lucide-react'
-import { getRole, getStudentId, logout } from '../auth'
+import { getRole, getStudentId, getSubject, logout } from '../auth'
 import api from '../api'
 
 interface Props {
@@ -12,6 +12,7 @@ export default function Layout({ children }: Props) {
   const navigate = useNavigate()
   const role = getRole()
   const studentId = getStudentId()
+  const subjectId = getSubject()
   const [menuOpen, setMenuOpen] = useState(false)
   const [aiHealthy, setAiHealthy] = useState<boolean | null>(null)
   const [theme, setTheme] = useState<string>(() => {
@@ -20,7 +21,7 @@ export default function Layout({ children }: Props) {
 
   useEffect(() => {
     api.get('/health')
-      .then((res) => setAiHealthy(res.data.ai === true))
+      .then((res) => setAiHealthy(res.data.ai === true || res.data.status === 'ok' || res.data.status === 'backend operational'))
       .catch(() => setAiHealthy(false))
   }, [])
 
@@ -69,6 +70,18 @@ export default function Layout({ children }: Props) {
             <span className="hidden md:inline text-xs font-mono tracking-wider text-mute capitalize">
               {role}
             </span>
+
+            {role === 'teacher' && (
+              <div className="hidden md:flex items-center gap-2 px-3 py-1 border border-line rounded-full bg-surface text-xs font-mono">
+                <span className="text-ink capitalize">{subjectId || 'Programming (CS101)'}</span>
+                <button
+                  onClick={() => navigate('/teacher/subject')}
+                  className="text-accent hover:underline ml-1"
+                >
+                  Change
+                </button>
+              </div>
+            )}
 
             {role === 'student' && studentId && (
               <span className="hidden md:inline text-xs font-mono tracking-wider text-ink">
@@ -130,6 +143,17 @@ export default function Layout({ children }: Props) {
                 {link.label}
               </button>
             ))}
+            {role === 'teacher' && (
+              <button
+                onClick={() => {
+                  navigate('/teacher/subject')
+                  setMenuOpen(false)
+                }}
+                className="block w-full text-left text-sm text-accent hover:underline"
+              >
+                Change Subject ({subjectId || 'Programming'})
+              </button>
+            )}
             <button
               onClick={handleLogout}
               className="block w-full text-left text-sm text-ink hover:text-accent transition-colors duration-200"
