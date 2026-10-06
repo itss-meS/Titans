@@ -2,7 +2,7 @@ import axios from 'axios'
 import { getRole, getStudentId } from './auth'
 
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: import.meta.env.VITE_API_URL || '/api',
   timeout: 20000,
 })
 

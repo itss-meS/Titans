@@ -1,0 +1,40 @@
+services:
+  - type: web
+    name: titans-ai
+    runtime: python
+    rootDir: du01-gap-detector/ai
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: LLM_MODEL
+        value: gpt-4o-mini
+
+  - type: web
+    name: titans-backend
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: AI_SERVICE_URL
+        value: https://titans-ai.onrender.com
+      - key: FRONTEND_URLS
+        value: https://titans-frontend.onrender.com
+
+  - type: web
+    name: titans-frontend
+    runtime: static
+    rootDir: frontend
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+    envVars:
+      - key: VITE_API_URL
+        value: https://titans-backend.onrender.com/api
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
