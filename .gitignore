@@ -1,5 +1,23 @@
-.venv/
-node_modules/
-backend/data/
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Node / Frontend
+node_modules/
 dist/
+dist-ssr/
+*.local
+.vscode/
+.idea/
+
+# Environment / Logs
+*.log
+.env
+.DS_Store
+
+# Backend data
+backend/data/
