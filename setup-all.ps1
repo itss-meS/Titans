@@ -1,11 +1,15 @@
 $steps = @(
+    "du01-gap-detector\ai\setup-ai.ps1",
     "backend\setup-backend.ps1",
-    "ai\setup-ai.ps1",
     "frontend\setup-frontend.ps1"
 )
 
 foreach ($step in $steps) {
     $path = Join-Path $PSScriptRoot $step
+    if (-not (Test-Path $path)) {
+        Write-Host "Skipping missing setup script: $step"
+        continue
+    }
     Write-Host "Running $step"
     $global:LASTEXITCODE = 0
     & $path

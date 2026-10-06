@@ -1,7 +1,7 @@
 Set-Location $PSScriptRoot
 
 if (-not (Test-Path ".venv")) {
-    py -3.11 -m venv .venv
+    python -m venv .venv
     if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
 }
 
